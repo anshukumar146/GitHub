@@ -1,6 +1,8 @@
+
 #include<stdio.h>
 int main(){
 int n,i,j,m,counter=0;
+int isIdentity = 1;
 printf("Enter the size of array:\n");             //Ask user for size of array.
 scanf("%d",&n);
 int arr1[n][n],sum=0;
@@ -28,18 +30,34 @@ else{printf("Its not a NULL matrix \n");}
   break;
 
   case 2:       //check for Identity matrix.
-  for(i=0; i<n;i++)
-{
-  {if(arr1[i][i]==1)
-  counter++;
-}}
-if(counter==n)
-{printf("Its a Identity matrix");}
-else{printf("Its not a Identity matrix");}
-  break;
+ 
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < n; j++) 
+        {
+            if (i == j)
+            {
+                // Check Diagonal: must be 1
+                if (arr1[i][j] != 1) {
+                    isIdentity = 0;
+                    break;
+                }
+            } else 
+            {
+                // Check Others: must be 0
+                if (arr1[i][j] != 0) {
+                    isIdentity = 0;
+                    break;
+                }
+            }
+        }
+        if (isIdentity == 0) break;
+    }
 
-default:
-  break;
+    if (isIdentity == 1)
+        printf("It's an Identity matrix\n");
+    else
+        printf("It's not an Identity matrix\n");
+    break;
 }
 return 0;
 }
