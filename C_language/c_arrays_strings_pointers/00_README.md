@@ -30,6 +30,7 @@ Each program demonstrates a fundamental concept in C.
 -  [12_Swap_number_using_pointer.c](./12_Swap_number_using_pointer.c)→Swaps two numbers using pointer with third temporary variable.
 - [14_sum_of_row_and_column_of_2D_array.c](./14_sum_of_row_and_column_of_2D_array.c)* → Find the sum of rows and columns of 2D array.
 - [15_principle_and_secondary_diagonal_2D_array.c](./15_principle_and_secondary_diagonal_2D_array.c)* → Print the principle and secondary diagonal of 2D array.c
+-  *[16_check_for_NULL_and_Identity_matrix.c](./16_check_for_NULL_and_Identity_matrix.c)* → Check for NULL and Identity matrix.
 ## ⚙ How to Run
 
 gcc filename.c -o output
