@@ -24,7 +24,7 @@ Each program demonstrates a fundamental concept in C.
 - *[ 10_String_Palindrome.c](./10_String_Palindrome.c)* → Check for palindrome in a string.
   
 - *[11_Japanese_Vocab_search.c](./11_Japanese_Vocab_search.c)* →Search for words from Minna no Nihongo Lessons 1 and 2, and show if they are present in my vocabulary list.
-  <h3><u>Here some example words.</u></h3>
+  <h3 ><u>Here some example words.</u></h3>
               <h3>watashi,anata,sensei,kyoushi,gakusei,kaishain,shain,ginkouin,isha,kenyuusha,enjinia,daigaku,byouin,denki</h3>   
  
 -  [12_Swap_number_using_pointer.c](./12_Swap_number_using_pointer.c)→Swaps two numbers using pointer with third temporary variable.
