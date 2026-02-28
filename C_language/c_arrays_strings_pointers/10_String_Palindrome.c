@@ -14,7 +14,7 @@ int main() {
         end--; 
     }
     
-    char *start = str;                        // Set pointers for reversal
+    char *start = str;                        // Set pointers for reversal.
     end = end - 1;                            // Move back from '\0' to the last letter
     int flag = 1;                             //Assuming temp is a palindrome.
 
