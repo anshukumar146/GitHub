@@ -1,0 +1,191 @@
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\orpicis64.dll
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\orpiica64.dll
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\orpiPIC64.dll
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\orpiPspice64.dll
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\orApConCtl64.dll
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\orgenlibcom64.dll
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\ortruereuse64.ocx
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\PspiceExplorerSrvr.exe
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\simmgr.exe
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\SimSrvr.exe
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\mrksrvr.exe
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\stmed.exe
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\modeled.exe
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\pspiceaa.exe
+INFO(ORCOMMN-11077): Registration successful in admin mode for C:\Cadence\OrCADX_25.1\tools\bin\pspice.exe
+Sync utility running
+INI File Location:C:\Users\anshu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture/25.1.0/Capture.ini
+Component Cache:1
+
+
+********************************************************************************
+*
+*  Performing annotation.
+*
+********************************************************************************
+INFO(ORCAP-1379): Done updating part references
+
+
+********************************************************************************
+*
+*  Performing annotation.
+*
+********************************************************************************
+
+INFO(ORCAP-1378): LAST USED REFERENCES
+
+        D1
+        J1
+        R1
+        U2
+
+INFO(ORCAP-1379): Done updating part references
+
+
+********************************************************************************
+*
+*  Design Rules Check
+*
+********************************************************************************
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections P2_25 
+
+Checking For Unconnected Bus Nets
+ERROR(ORCAP-1592): Bus has no name and therefore defines no signals. N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D6 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D0 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D0 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D2 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D2 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D3 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D3 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D1 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D1 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D4 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D4 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D5 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D5 
+
+Checking Physical Rules 
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: DAY-02 
+--------------------------------------------------
+ERROR(ORCAP-2213): Checking Physical Rules
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, PAGE2 (1.80, 1.80). /U1:  SCHEMATIC1, PAGE2  (1.80, 1.80) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R1: SCHEMATIC1, PAGE1 (3.70, 1.20). /R1:  SCHEMATIC1, PAGE1  (3.70, 1.20) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, PAGE1 (3.70, 1.90). /D1:  SCHEMATIC1, PAGE1  (3.70, 1.90) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE2 (5.80, 1.80). /U2:  SCHEMATIC1, PAGE2  (5.80, 1.80) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, PAGE1 (4.80, 1.00). /J1:  SCHEMATIC1, PAGE1  (4.80, 1.00) 
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
+
+
+********************************************************************************
+*
+*  Design Rules Check
+*
+********************************************************************************
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections P2_25 
+
+Checking For Unconnected Bus Nets
+ERROR(ORCAP-1592): Bus has no name and therefore defines no signals. N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected N00944 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D6 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D0 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D0 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D2 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D2 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D3 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D3 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D1 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D1 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D4 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D4 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D5 
+WARNING(ORCAP-1595): Two wires/buses of different nets intersect visually, yet nets are not connected D5 
+
+Checking Physical Rules 
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: DAY-02 
+--------------------------------------------------
+ERROR(ORCAP-2213): Checking Physical Rules
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, PAGE2 (1.80, 1.80). /U1:  SCHEMATIC1, PAGE2  (1.80, 1.80) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE2 (5.80, 1.80). /U2:  SCHEMATIC1, PAGE2  (5.80, 1.80) 
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
