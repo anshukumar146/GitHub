@@ -1,0 +1,48 @@
+\t (00:00:00) padstack_editor 25.1 S020 (4396590) [2/5/2026] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Mar  6 19:45:40 2026
+\t (00:00:00)         Host=LAPTOP-HTNQOTB1 User=anshu Pid=25312 CPUs=12
+\t (00:00:00) CmdLine= padstack_editor -mpssession anshu -file C:/Users/anshu/AppData/Local/Temp/#Taaaadn17624.tmp -pname 55S36 -data C:/Users/anshu/AppData/Local/Temp/#Taaaadr17624.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:38) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:54) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:55) QtSignal GuidedTabsParent PadstackTypes itemClicked "Thru Pin"
+\d (00:00:56) QtSignal GuidedTabsParent NewPads itemClicked Square
+\d (00:00:58) QtFillin No
+\d (00:00:59) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:01:15) QtSignal GuidedDrillTab holeXSize editingFinished "0.6500"
+\d (00:01:55) QtSignal GuidedDrillTab holeXSize editingFinished "1.2000"
+\d (00:02:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:02:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:02:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:02:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:02:08) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged Circle
+\d (00:02:13) QtSignal GuidedDesignLayersTab PadDiameter editingFinished "1.2000"
+\d (00:02:13) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:02:14) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:02:14) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:02:15) QtFillin Copy
+\d (00:02:16) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:02:16) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 2 "Regular Pad"
+\d (00:02:17) QtFillin Paste
+\d (00:02:18) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:02:18) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
+\d (00:02:19) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
+\d (00:02:21) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:02:24) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:02:25) QtFillin Paste
+\d (00:02:29) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "1.4000"
+\d (00:02:29) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:02:30) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:02:30) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 "Regular Pad" 1 1
+\d (00:02:33) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 1 "Regular Pad"
+\d (00:02:34) QtFillin Paste
+\d (00:02:38) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "1.4000"
+\d (00:02:38) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:02:46) QtSignal MainWindow SaveAs triggered
+\d (00:02:47) QtSignal pseCheckBrowser Close clicked
+\d (00:02:48) QtFillin Yes
+\d (00:02:56) QtSignal MainWindow AQFileDialog finished 1
+\d (00:02:56) QtFillin "headerpad.pad"
+\d (00:02:58) QtSignal MainWindow Exit triggered
+\t (00:02:58)     Journal end - Fri Mar  6 19:48:39 2026

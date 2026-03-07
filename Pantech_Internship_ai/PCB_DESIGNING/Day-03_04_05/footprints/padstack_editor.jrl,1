@@ -1,0 +1,59 @@
+\t (00:00:00) padstack_editor 25.1 S020 (4396590) [2/5/2026] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Mar  6 19:14:40 2026
+\t (00:00:00)         Host=LAPTOP-HTNQOTB1 User=anshu Pid=17824 CPUs=12
+\t (00:00:00) CmdLine= padstack_editor -mpssession anshu -file C:/Users/anshu/AppData/Local/Temp/#Taaaach17624.tmp -pname 55S36 -data C:/Users/anshu/AppData/Local/Temp/#Taaaacl17624.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:18) QtSignal GuidedTabsParent PadstackTypes currentRowChanged 1
+\d (00:00:18) QtSignal GuidedTabsParent PadstackTypes itemSelectionChanged "SMD Pin"
+\d (00:00:18) QtSignal GuidedTabsParent PadstackTypes itemClicked "SMD Pin"
+\d (00:00:19) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:22) QtSignal GuidedDrillTab HoleType CurrentIndexChanged Square
+\d (00:01:00) QtFillin OK
+\d (00:01:01) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:01:03) QtSignal GuidedTabsParent NewPads itemClicked Square
+\d (00:01:05) QtFillin No
+\d (00:01:36) QtSignal GuidedTabsParent NewPads currentRowChanged 3
+\d (00:01:36) QtSignal GuidedTabsParent NewPads itemSelectionChanged Rectangle
+\d (00:01:36) QtSignal GuidedTabsParent NewPads itemClicked Rectangle
+\d (00:01:38) QtFillin Yes
+\d (00:01:42) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:01:44) QtSignal GuidedDrillTab HoleType CurrentIndexChanged None
+\d (00:01:45) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:51) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:02:01) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:02:02) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:02:04) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:02:04) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:02:26) QtSignal GuidedDesignLayersTab PadWidth editingFinished "0.9000"
+\d (00:02:34) QtSignal GuidedDesignLayersTab PadHeight editingFinished "1.4000"
+\d (00:02:34) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:02:36) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:02:36) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:02:37) QtFillin Copy
+\d (00:02:38) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:02:47) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:02:48) QtFillin Paste
+\d (00:02:54) QtSignal GuidedMaskLayersTab PadWidth editingFinished "1.0000"
+\d (00:02:58) QtSignal GuidedMaskLayersTab PadHeight editingFinished "1.5000"
+\d (00:02:58) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:03:00) QtFillin ""
+\d (00:03:00) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:03:01) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:03:02) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 1 "Regular Pad"
+\d (00:03:03) QtFillin Paste
+\d (00:03:42) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 1 "Regular Pad"
+\d (00:03:44) QtFillin ""
+\d (00:03:44) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 "Regular Pad" 1 1
+\d (00:03:46) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged None
+\d (00:03:48) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:03:48) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 "Regular Pad" 2 1
+\d (00:03:49) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 2 "Regular Pad"
+\d (00:03:50) QtFillin Paste
+\d (00:03:57) QtSignal MainWindow SaveAs triggered
+\d (00:03:59) QtSignal pseCheckBrowser Close clicked
+\d (00:04:01) QtFillin Yes
+\d (00:04:50) QtSignal MainWindow AQFileDialog finished 1
+\d (00:04:50) QtFillin "smdresistorpad.pad"
+\d (00:04:58) QtSignal MainWindow Exit triggered
+\t (00:04:58)     Journal end - Fri Mar  6 19:19:38 2026

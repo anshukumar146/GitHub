@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : LCD.dra                                       )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Fri Mar  6 19:04:36 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/OrCAD_Projects/day-05
+    Name      = lcd.psm
+    User      = anshu
+    Machine   = LAPTOP-HTNQOTB1
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
