@@ -1,0 +1,32 @@
+\t (00:00:03) allegro 25.1 S020 (4396590) [2/5/2026] Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Sat Mar  7 01:30:37 2026
+\t (00:00:03)         Host=LAPTOP-HTNQOTB1 User=anshu Pid=13428 CPUs=12
+\t (00:00:03) CmdLine= c:\cadence\orcadx_25.1\tools\bin\allegro.exe D:\OrCAD_Projects\day-05\Board\demo1.brd
+\t (00:00:03) 
+\t (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged demo1
+\d (00:00:06) Design opened: D:/OrCAD_Projects/day-05/Board/demo1.brd
+\t (00:00:06) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:00:06) trapsize 14970
+\i (00:00:06) trapsize 15512
+\i (00:00:06) trapsize 14970
+\t (00:00:06) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\t (00:00:06) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:00:06) trapsize 9798
+\i (00:00:06) trapsize 9798
+\i (00:00:08) updateport SearchPane
+\i (00:00:08) generaledit 
+\i (00:00:16) nctape_full 
+\w (00:00:16) WARNING(SPMHMF-272): NC Parameters file 'nc_param.txt' not found ... loading defaults.
+\i (00:00:22) setwindow form.nc_drill
+\i (00:00:22) FORM nc_drill scale 1.0000 
+\i (00:00:22) FORM nc_drill browse  
+\t (00:01:30) Loading consmgr.cxt 
+\t (00:01:30) Loading acns_formula.cxt 
+\t (00:01:34) Lic Summary:
+[01:32:08.292073] Cdslmd servers:C:\Users\anshu\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[01:32:08.822091] Feature usage summary:
+[01:32:08.822099] OrCAD_X_PCB_Professional_Plus  
+[01:32:08.822104] OrCAD_X_Professional_Plus  
+\t (00:01:38)     Journal end - Sat Mar  7 01:32:12 2026

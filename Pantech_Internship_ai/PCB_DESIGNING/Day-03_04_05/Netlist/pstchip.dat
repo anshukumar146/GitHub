@@ -1,0 +1,48 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 25.1.0 d001Mar-06-2026 at 21:50:00}
+primitive 'LED_LED_LED';
+  pin
+    'C':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='LED';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'HEADER-2_HEADER_HEADER-2';
+  pin
+    '+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Header-2';
+    JEDEC_TYPE='Header';
+    VALUE='Header-2';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_RES_RESISTOR';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='RES';
+    VALUE='RESISTOR';
+  end_body;
+end_primitive;
+END.

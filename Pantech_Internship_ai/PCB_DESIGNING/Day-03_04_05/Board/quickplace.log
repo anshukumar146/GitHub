@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : demo.brd                                      )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Fri Mar  6 22:13:29 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  D1 / LED_LED_LED / LED at (1.6296 26.0882)
+         Placed symbol:  J1 / HEADER-2_HEADER_HEADER-2 / HEADER at (6.6842 26.1532)
+         Placed symbol:  R1 / RESISTOR_RES_RESISTOR / RES at (9.2638 26.2032)
+
+
+Placed 3 of 3 applicable (3 total) symbols.
+
+-----------------------------------------------------------------------
+

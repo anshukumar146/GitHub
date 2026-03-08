@@ -1,0 +1,52 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 25.1.0 d001Mar-06-2026 at 21:50:00 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DAY-03';
+ POST_TIME='Feb  5 2026 13:43:38';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ D1 'LED_LED_LED':;
+
+SECTION_NUMBER 1
+ '@DAY-03.SCHEMATIC1(SCH_1):INS232@LIBRARY1.LED.NORMAL(CHIPS)':
+ C_PATH='@\day-03\.schematic1(sch_1):ins232@library1.\led.normal\(chips)',
+ P_PATH='@\day-03\.schematic1(sch_1):page1_ins232@library1.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(240,390)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(240,390,280,430)',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER-2_HEADER_HEADER-2':;
+
+SECTION_NUMBER 1
+ '@DAY-03.SCHEMATIC1(SCH_1):INS118@LIBRARY1.HEADER-2.NORMAL(CHIPS)':
+ C_PATH='@\day-03\.schematic1(sch_1):ins118@library1.\header-2.normal\(chips)',
+ P_PATH='@\day-03\.schematic1(sch_1):page1_ins118@library1.\header-2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(450,260)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(450,260,470,310)',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_RES_RESISTOR':;
+
+SECTION_NUMBER 1
+ '@DAY-03.SCHEMATIC1(SCH_1):INS28@LIBRARY1.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\day-03\.schematic1(sch_1):ins28@library1.\resistor.normal\(chips)',
+ P_PATH='@\day-03\.schematic1(sch_1):page1_ins28@library1.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(240,240)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(240,240,280,310)',
+ SECTION='';
+
+END.

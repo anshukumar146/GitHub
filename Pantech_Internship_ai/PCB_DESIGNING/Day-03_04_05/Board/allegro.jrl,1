@@ -1,0 +1,1097 @@
+\t (00:00:02) allegro 25.1 S020 (4396590) [2/5/2026] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Mar  7 00:23:39 2026
+\t (00:00:02)         Host=LAPTOP-HTNQOTB1 User=anshu Pid=16876 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\orcadx_25.1\tools\bin\allegro.exe D:\OrCAD_Projects\day-05\Board\demo.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:11) fillin yes 
+\i (00:00:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged demo
+\d (00:00:11) Design opened: D:/OrCAD_Projects/day-05/Board/demo.brd
+\t (00:00:12) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:00:12) trapsize 2849
+\i (00:00:12) trapsize 2952
+\i (00:00:12) trapsize 2849
+\t (00:00:12) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\t (00:00:12) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:00:12) trapsize 1865
+\i (00:00:12) trapsize 2126
+\i (00:00:14) updateport SearchPane
+\i (00:00:14) generaledit 
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 19.6854 11.4796
+\t (00:00:14) Loading consmgr.cxt 
+\t (00:00:14) Loading acns_formula.cxt 
+\i (00:00:14) trapsize 1063
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 20.7909 12.9677
+\i (00:00:15) trapsize 2126
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:18) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:18) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:18) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:18) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:18) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:18) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:19) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:20) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:20) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:20) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:20) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:00:46) show allpanes 
+\t (00:00:46) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:00:46) trapsize 3412
+\i (00:00:46) QtSignal Docked_Constraints_Panel_Wid PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:00:46) QtSignal "CP_ALLEGRO_CONSTRAINTS_DOCK"
+\i (00:00:46) generaledit 
+\e (00:01:04) Command not found: ncdrill
+\i (00:02:28) ncdrill customization 
+\i (00:02:28) generaledit 
+\i (00:02:45) setwindow form.nc_drillcustomization
+\i (00:02:45) FORM nc_drillcustomization cancel  
+\i (00:02:52) setwindow pcb
+\i (00:02:52) ncdrill legend 
+\t (00:02:53) Loading mfg.cxt 
+\i (00:03:04) ncdrill param 
+\i (00:03:08) setwindow form.nc_parameters
+\i (00:03:08) FORM nc_parameters done  
+\i (00:03:12) setwindow form.nc_drilllegend
+\i (00:03:12) FORM nc_drilllegend browse  
+\i (00:03:55) fillin "demo.dlt"
+\i (00:03:57) fillin confirm
+\i (00:04:06) FORM nc_drilllegend cancel  
+\i (00:04:06) setwindow pcb
+\i (00:04:06) generaledit 
+\i (00:04:10) artwork 
+\i (00:04:18) setwindow form.film_control
+\i (00:04:18) FORM film_control cancel  
+\i (00:04:18) setwindow pcb
+\i (00:04:18) updateport SearchPane
+\i (00:04:18) generaledit 
+\i (00:05:05) setwindow form.find
+\i (00:05:05) FORM find groups YES 
+\t (00:05:08) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:05:08) setwindow pcb
+\i (00:05:08) trapsize 2423
+\i (00:05:13) trapsize 2431
+\i (00:05:13) trapsize 2442
+\i (00:05:13) trapsize 2468
+\i (00:05:13) trapsize 2485
+\i (00:05:13) trapsize 2488
+\i (00:05:13) trapsize 2486
+\i (00:05:13) trapsize 2479
+\i (00:05:13) trapsize 2462
+\i (00:05:13) trapsize 2436
+\i (00:05:13) trapsize 2423
+\i (00:05:48) trapsize 2424
+\t (00:06:01) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:06:01) trapsize 3412
+\t (00:06:11) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:06:11) trapsize 2424
+\i (00:06:26) ncdrill legend 
+\t (00:06:26) [00:30:03.103969] Periodic Lic check successful
+[00:30:03.628281] Feature usage summary:
+[00:30:03.628282] OrCAD_X_PCB_Professional_Plus  
+[00:30:03.628282] OrCAD_X_Professional_Plus  
+\i (00:06:27) setwindow form.nc_drilllegend
+\i (00:06:27) FORM nc_drilllegend cancel  
+\i (00:06:27) setwindow pcb
+\i (00:06:27) updateport SearchPane
+\i (00:06:27) generaledit 
+\i (00:08:37) nctape_full 
+\i (00:08:39) setwindow form.nc_drill
+\i (00:08:39) FORM nc_drill browse  
+\i (00:08:41) fillin "demo.drl"
+\i (00:08:53) FORM nc_drill scale 1.0000 
+\i (00:08:53) FORM nc_drill execute  
+\t (00:08:53) Starting Generating NC Drill...
+\i (00:08:54) setwindow pcb
+\i (00:08:54) updateport SearchPane
+\t (00:08:55) SpawnProcessExit background process completed status = 0
+
+\i (00:09:12) setwindow form.nc_drill
+\i (00:09:12) FORM nc_drill close  
+\i (00:09:12) setwindow pcb
+\i (00:09:12) generaledit 
+\i (00:10:03) prmed 
+\i (00:10:05) setwindow form.prmedit
+\i (00:10:05) FORM prmedit design  
+\i (00:10:16) FORM prmedit width 300.0000 
+\i (00:10:16) FORM prmedit done  
+\i (00:10:16) setwindow pcb
+\i (00:10:16) trapsize 2424
+\i (00:10:16) generaledit 
+\i (00:10:21) prmed 
+\i (00:10:30) setwindow form.prmedit
+\i (00:10:30) FORM prmedit height 300.0000 
+\i (00:10:30) FORM prmedit done  
+\i (00:10:30) setwindow pcb
+\i (00:10:30) trapsize 2424
+\i (00:10:30) generaledit 
+\i (00:10:33) zoom out 1 
+\i (00:10:33) setwindow pcb
+\i (00:10:33) zoom out 28.6233 9.8999
+\t (00:10:33) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:10:33) trapsize 4847
+\i (00:10:39) ncdrill legend 
+\i (00:10:41) setwindow form.nc_drilllegend
+\i (00:10:41) FORM nc_drilllegend done  
+\i (00:10:42) setwindow pcb
+\i (00:10:42) zoom out 1 
+\i (00:10:42) setwindow pcb
+\i (00:10:42) zoom out -5.9027 26.4766
+\t (00:10:42) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:10:42) trapsize 9694
+\i (00:10:44) pick grid -7.9385 33.9397
+\t (00:10:44) last pick:  -7.9000 33.9000
+\t (00:10:44) NC Drill Legend generation successful
+\i (00:10:44) updateport SearchPane
+\i (00:10:44) generaledit 
+\i (00:11:02) undo 
+\t (00:11:02) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:11:02) trapsize 4847
+\i (00:11:02) updateport SearchPane
+\i (00:11:02) generaledit 
+\i (00:11:03) zoom out 1 
+\i (00:11:03) setwindow pcb
+\i (00:11:03) zoom out 87.4508 29.8695
+\t (00:11:03) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:11:03) trapsize 9694
+\i (00:11:06) ncdrill legend 
+\i (00:11:07) setwindow form.nc_drilllegend
+\i (00:11:07) FORM nc_drilllegend done  
+\i (00:11:10) setwindow pcb
+\i (00:11:10) pick grid 36.0724 42.4705
+\t (00:11:10) last pick:  36.1000 42.5000
+\t (00:11:10) NC Drill Legend generation successful
+\i (00:11:10) updateport SearchPane
+\i (00:11:10) generaledit 
+\i (00:11:46) artwork 
+\t (00:11:46) [00:35:23.020859] Periodic Lic check successful
+[00:35:23.545170] Feature usage summary:
+[00:35:23.545171] OrCAD_X_PCB_Professional_Plus  
+[00:35:23.545171] OrCAD_X_Professional_Plus  
+\i (00:11:49) setwindow form.film_control
+\i (00:11:49) FORM film_control filmtree  TOP 
+\i (00:11:50) FORM film_control filmtree  ETCH/BOTTOM BOTTOM 
+\i (00:11:51) FORM film_control filmtree popup Add ETCH/BOTTOM BOTTOM 
+\i (00:11:51) setwindow form.scl_browser
+\i (00:11:51) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:11:53) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:12:06) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:12:06) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:12:19) FORM scl_browser done  
+\w (00:12:19) WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
+\i (00:12:21) fillin confirm
+\i (00:12:23) setwindow form.film_control
+\i (00:12:23) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:12:24) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:12:24) setwindow form.scl_browser
+\i (00:12:24) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:12:26) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:12:31) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:12:31) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:12:31) FORM scl_browser done  
+\i (00:12:44) setwindow form.film_control
+\i (00:12:44) FORM film_control filmtree  TOP 
+\i (00:12:44) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:12:45) FORM film_control filmtree  BOTTOM 
+\i (00:12:45) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:12:55) FORM film_control filmtree 'MULTISEL NO' BOTTOM 
+\i (00:12:56) FORM film_control filmtree  TOP 
+\i (00:12:58) FORM film_control filmtree  BOTTOM 
+\i (00:12:58) FORM film_control filmtree  TOP 
+\i (00:13:00) FORM film_control filmtree popup 'Display for Visibility' TOP 
+\i (00:13:00) setwindow pcb
+\i (00:13:00) updateport CVPane
+\i (00:13:02) setwindow form.film_control
+\i (00:13:02) FORM film_control filmtree popup Add TOP 
+\i (00:13:20) fillin "SOLDERMASKTOP"
+\i (00:13:34) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:13:35) FORM film_control filmtree  ETCH/TOP SOLDERMASKTOP 
+\i (00:13:36) FORM film_control filmtree popup Cut ETCH/TOP SOLDERMASKTOP 
+\i (00:14:04) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:14:13) FORM film_control filmtree RENAME= SOLDERMASKTOP 
+\i (00:14:15) FORM film_control filmtree  TOP 
+\i (00:14:16) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:14:17) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:14:17) setwindow form.scl_browser
+\i (00:14:17) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:14:18) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:14:22) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:14:22) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:14:23) FORM scl_browser done  
+\i (00:14:25) setwindow form.film_control
+\i (00:14:25) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:14:27) FORM film_control filmtree popup Cut SOLDERMASKTOP 
+\i (00:14:30) FORM film_control filmtree popup 'Display for Visibility' TOP 
+\i (00:14:30) setwindow pcb
+\i (00:14:30) updateport CVPane
+\i (00:14:33) setwindow form.film_control
+\i (00:14:33) FORM film_control filmtree popup Add TOP 
+\i (00:14:53) fillin "SOLDERMASKTOP"
+\i (00:14:54) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:14:56) FORM film_control filmtree  TOP 
+\i (00:14:57) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:14:59) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:14:59) setwindow form.scl_browser
+\i (00:14:59) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:15:01) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:15:06) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:15:06) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:15:06) FORM scl_browser treelist 'MULTISEL NO' OUTLINE 'BOARD GEOMETRY' 
+\i (00:15:06) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:15:06) FORM scl_browser treelist 'MULTISEL NO' OUTLINE 'BOARD GEOMETRY' 
+\i (00:15:07) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:15:08) FORM scl_browser done  
+\i (00:15:14) setwindow form.film_control
+\i (00:15:14) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:15:14) setwindow form.scl_browser
+\i (00:15:14) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:15:16) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:16:23) FORM scl_browser done  
+\i (00:19:02) setwindow form.film_control
+\i (00:19:02) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:19:05) FORM film_control filmtree popup Add SOLDERMASKTOP 
+\i (00:19:09) fillin "menu_cancel"
+\i (00:19:10) FORM film_control filmtree  ETCH/TOP SOLDERMASKTOP 
+\i (00:19:12) FORM film_control filmtree popup Add ETCH/TOP SOLDERMASKTOP 
+\i (00:19:12) setwindow form.scl_browser
+\i (00:19:12) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:19:13) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:19:16) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:19:16) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:19:17) FORM scl_browser done  
+\i (00:19:19) setwindow form.film_control
+\i (00:19:19) FORM film_control load  
+\i (00:19:21) fillin "menu_cancel"
+\i (00:19:23) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:19:24) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:19:25) FORM film_control filmtree RENAME= SOLDERMASKTOP 
+\i (00:19:30) FORM film_control filmtree popup Cut SOLDERMASKTOP 
+\i (00:19:34) FORM film_control filmtree popup Add TOP 
+\i (00:19:43) fillin "SOLDERMASKTOP"
+\i (00:19:45) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:20:00) FORM film_control filmtree 'MULTISEL YES' SOLDERMASKTOP 
+\i (00:20:02) FORM film_control filmtree popup Add'MULTISEL YES' SOLDERMASKTOP 
+\i (00:20:07) fillin "menu_cancel"
+\i (00:20:10) FORM film_control filmtree popup 'Add Manual''MULTISEL YES' SOLDERMASKTOP 
+\i (00:20:12) fillin "menu_cancel"
+\i (00:21:26) FORM film_control load  
+\i (00:21:48) fillin "menu_cancel"
+\i (00:21:51) FORM film_control filmtree popup Add'MULTISEL YES' SOLDERMASKTOP 
+\i (00:23:30) fillin "menu_cancel"
+\i (00:23:32) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:23:32) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:23:32) FORM film_control filmtree  ETCH/TOP SOLDERMASKTOP 
+\i (00:23:32) FORM film_control filmtree  PIN/TOP SOLDERMASKTOP 
+\i (00:23:32) FORM film_control filmtree  'VIA CLASS/TOP' SOLDERMASKTOP 
+\i (00:23:32) FORM film_control filmtree  PIN/TOP SOLDERMASKTOP 
+\i (00:23:33) FORM film_control filmtree  'VIA CLASS/TOP' TOP 
+\i (00:23:33) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:23:36) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:23:37) FORM film_control filmtree  'VIA CLASS/TOP' SOLDERMASKTOP 
+\i (00:23:40) FORM film_control filmtree  PIN/TOP SOLDERMASKTOP 
+\i (00:23:41) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:23:43) FORM film_control filmtree popup Add SOLDERMASKTOP 
+\i (00:23:51) fillin "menu_cancel"
+\i (00:23:51) FORM film_control filmtree  TOP 
+\i (00:23:53) FORM film_control filmtree popup 'Undo Cut' TOP 
+\i (00:23:58) FORM film_control filmtree popup 'Undo Cut' TOP 
+\i (00:23:59) FORM film_control cancel  
+\i (00:23:59) setwindow pcb
+\i (00:23:59) updateport SearchPane
+\i (00:23:59) generaledit 
+\t (00:23:59) [00:47:37.171064] Periodic Lic check successful
+[00:47:37.171083] Feature usage summary:
+[00:47:37.171083] OrCAD_X_PCB_Professional_Plus  
+[00:47:37.171083] OrCAD_X_Professional_Plus  
+\i (00:24:01) artwork 
+\i (00:24:02) setwindow form.film_control
+\i (00:24:02) FORM film_control filmtree  TOP 
+\i (00:24:05) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:24:06) FORM film_control filmtree  BOTTOM 
+\i (00:24:07) FORM film_control filmtree  ETCH/BOTTOM BOTTOM 
+\i (00:24:08) FORM film_control filmtree popup Add ETCH/BOTTOM BOTTOM 
+\i (00:24:08) setwindow form.scl_browser
+\i (00:24:08) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:24:09) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:24:11) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:24:11) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:24:13) FORM scl_browser done  
+\i (00:24:14) setwindow form.film_control
+\i (00:24:14) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:24:15) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:24:15) setwindow form.scl_browser
+\i (00:24:15) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:24:17) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:24:19) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:24:19) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:24:22) FORM scl_browser done  
+\i (00:24:23) setwindow form.film_control
+\i (00:24:23) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' BOTTOM 
+\i (00:24:26) FORM film_control generate_films  
+\i (00:24:26) setwindow pcb
+\i (00:24:26) updateport CVPane
+\i (00:24:27) setwindow form.film_control
+\i (00:24:27) FORM film_control domain_setting  
+\i (00:24:28) setwindow form.film_domain
+\i (00:24:28) FORM film_domain cancel  
+\i (00:24:28) setwindow form.film_control
+\i (00:24:28) FORM film_control filmtree  ASSYBT 
+\i (00:24:30) FORM film_control general_parameters  
+\i (00:24:31) FORM film_control film_control  
+\i (00:24:32) FORM film_control film_categories  
+\i (00:24:35) FORM film_control domain_setting  
+\i (00:24:36) setwindow form.film_domain
+\i (00:24:36) FORM film_domain cancel  
+\i (00:24:37) setwindow form.film_control
+\i (00:24:37) FORM film_control generate_films  
+\i (00:24:37) setwindow pcb
+\i (00:24:37) updateport CVPane
+\i (00:24:38) setwindow form.film_control
+\i (00:24:38) FORM film_control film_categories  
+\i (00:24:41) FORM film_control cancel  
+\i (00:24:41) setwindow pcb
+\i (00:24:41) updateport SearchPane
+\i (00:24:41) generaledit 
+\i (00:24:42) artwork 
+\i (00:24:45) setwindow form.film_control
+\i (00:24:45) FORM film_control filmtree  TOP 
+\i (00:24:45) FORM film_control filmtree  BOTTOM 
+\i (00:24:49) FORM film_control filmtree popup Add BOTTOM 
+\i (00:24:50) fillin "menu_cancel"
+\i (00:24:51) FORM film_control filmtree  ETCH/BOTTOM BOTTOM 
+\i (00:24:52) FORM film_control filmtree popup Add ETCH/BOTTOM BOTTOM 
+\i (00:24:52) setwindow form.scl_browser
+\i (00:24:52) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:24:53) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:24:55) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:24:55) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:24:56) FORM scl_browser done  
+\i (00:24:57) setwindow form.film_control
+\i (00:24:57) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:24:58) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:24:58) setwindow form.scl_browser
+\i (00:24:58) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:25:00) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:25:01) FORM scl_browser treelist  OFF_GRID_AREA 'BOARD GEOMETRY' 
+\i (00:25:02) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:25:02) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:25:03) FORM scl_browser done  
+\i (00:25:04) setwindow form.film_control
+\i (00:25:04) FORM film_control filmtree  TOP 
+\i (00:25:06) FORM film_control filmtree popup 'Display for Visibility' TOP 
+\i (00:25:06) setwindow pcb
+\i (00:25:06) updateport CVPane
+\i (00:25:07) setwindow form.film_control
+\i (00:25:07) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:25:08) FORM film_control filmtree popup 'Display for Visibility''MULTISEL YES' TOP 
+\i (00:25:08) setwindow pcb
+\i (00:25:08) updateport CVPane
+\i (00:25:10) setwindow form.film_control
+\i (00:25:10) FORM film_control filmtree popup 'Display for Visibility''MULTISEL YES' TOP 
+\i (00:25:10) setwindow pcb
+\i (00:25:10) updateport CVPane
+\i (00:25:14) setwindow form.film_control
+\i (00:25:14) FORM film_control filmtree popup Add'MULTISEL YES' TOP 
+\i (00:25:21) fillin "SOLDERMASKTOP"
+\i (00:25:23) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:25:25) FORM film_control filmtree  ETCH/TOP SOLDERMASKTOP 
+\i (00:25:27) FORM film_control filmtree popup Add ETCH/TOP SOLDERMASKTOP 
+\i (00:25:27) setwindow form.scl_browser
+\i (00:25:27) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:25:29) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:25:31) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:25:32) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:25:32) FORM scl_browser done  
+\i (00:25:52) setwindow form.film_control
+\i (00:25:52) FORM film_control filmtree popup Add ETCH/TOP SOLDERMASKTOP 
+\i (00:25:52) setwindow form.scl_browser
+\i (00:25:52) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:25:57) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:25:59) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:25:59) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:28:11) FORM scl_browser cancel  
+\i (00:28:12) setwindow form.film_control
+\i (00:28:12) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:28:14) FORM film_control filmtree popup Add SOLDERMASKTOP 
+\i (00:30:43) fillin "menu_cancel"
+\i (00:30:44) FORM film_control load  
+\i (00:30:51) fillin "menu_cancel"
+\i (00:31:49) FORM film_control filmtree popup 'Select All' SOLDERMASKTOP 
+\i (00:31:51) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:31:53) FORM film_control filmtree  ETCH/TOP SOLDERMASKTOP 
+\i (00:31:55) FORM film_control filmtree popup Add ETCH/TOP SOLDERMASKTOP 
+\i (00:31:55) setwindow form.scl_browser
+\i (00:31:55) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:31:58) FORM scl_browser treelist  BOUNDARY 
+\i (00:31:59) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:32:02) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:32:03) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:32:05) FORM scl_browser done  
+\i (00:33:29) setwindow form.film_control
+\i (00:33:29) FORM film_control filmtree popup Add ETCH/TOP SOLDERMASKTOP 
+\i (00:33:29) setwindow form.scl_browser
+\i (00:33:29) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:33:30) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:33:32) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:33:32) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:34:52) FORM scl_browser cancel  
+\i (00:34:53) setwindow form.film_control
+\i (00:34:53) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:34:56) FORM film_control filmtree popup Cut SOLDERMASKTOP 
+\i (00:35:01) FORM film_control filmtree popup Add TOP 
+\i (00:35:07) fillin "SOLDERMASKTOP"
+\i (00:35:09) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:35:10) FORM film_control filmtree  ETCH/TOP SOLDERMASKTOP 
+\i (00:35:12) FORM film_control filmtree popup Add ETCH/TOP SOLDERMASKTOP 
+\i (00:35:12) setwindow form.scl_browser
+\i (00:35:12) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:35:13) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:35:17) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:35:18) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:35:18) FORM scl_browser done  
+\i (00:35:20) setwindow form.film_control
+\i (00:35:20) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:35:24) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\t (00:35:27) No command was found for ID 1.
+\i (00:35:27) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:35:28) FORM film_control filmtree popup Add 'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:35:28) setwindow form.scl_browser
+\i (00:35:28) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:35:34) FORM scl_browser cancel  
+\i (00:35:35) setwindow form.film_control
+\i (00:35:35) FORM film_control filmtree  ETCH/TOP TOP 
+\t (00:35:36) No command was found for ID 1.
+\i (00:35:36) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:35:37) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:35:37) setwindow form.scl_browser
+\i (00:35:37) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:35:38) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:35:42) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:35:42) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:35:43) FORM scl_browser done  
+\i (00:35:44) setwindow form.film_control
+\i (00:35:44) FORM film_control filmtree  TOP 
+\i (00:35:47) FORM film_control filmtree popup Add TOP 
+\i (00:35:56) fillin "SOLDERMASKTOP"
+\i (00:35:58) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:36:00) FORM film_control filmtree popup Cut SOLDERMASKTOP 
+\i (00:36:02) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:36:03) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:36:03) setwindow form.scl_browser
+\i (00:36:03) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:36:05) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:36:38) FORM scl_browser cancel  
+\i (00:36:39) setwindow form.film_control
+\i (00:36:39) FORM film_control cancel  
+\i (00:36:39) setwindow pcb
+\i (00:36:39) updateport SearchPane
+\i (00:36:39) generaledit 
+\t (00:36:39) [01:00:17.012138] Periodic Lic check successful
+[01:00:17.012171] Feature usage summary:
+[01:00:17.012171] OrCAD_X_PCB_Professional_Plus  
+[01:00:17.012171] OrCAD_X_Professional_Plus  
+\i (00:37:52) artwork 
+\i (00:39:14) setwindow form.film_control
+\i (00:39:14) FORM film_control filmtree popup 'Display for Visibility' BOTTOM 
+\i (00:39:15) setwindow pcb
+\i (00:39:15) updateport CVPane
+\i (00:39:19) setwindow form.film_control
+\i (00:39:19) FORM film_control cancel  
+\i (00:39:19) setwindow pcb
+\i (00:39:19) updateport SearchPane
+\i (00:39:19) generaledit 
+\i (00:39:20) zoom out 1 
+\i (00:39:20) setwindow pcb
+\i (00:39:20) zoom out 70.1954 16.8782
+\t (00:39:20) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:39:20) trapsize 19388
+\i (00:39:21) zoom in 1 
+\i (00:39:21) setwindow pcb
+\i (00:39:21) zoom in 138.2476 64.5729
+\t (00:39:21) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:39:21) trapsize 9694
+\i (00:39:21) zoom out 1 
+\i (00:39:21) setwindow pcb
+\i (00:39:21) zoom out 61.7312 57.5932
+\t (00:39:21) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:39:21) trapsize 19388
+\i (00:39:22) zoom out 1 
+\i (00:39:22) setwindow pcb
+\i (00:39:22) zoom out 50.2257 53.3279
+\t (00:39:22) Grids are drawn 3.2000, 3.2000 apart for enhanced viewing.
+\i (00:39:22) trapsize 27125
+\i (00:39:22) zoom out 1 
+\i (00:39:22) setwindow pcb
+\i (00:39:22) zoom out 17.8571 37.9295
+\i (00:39:22) trapsize 27125
+\i (00:39:23) zoom in 1 
+\i (00:39:23) setwindow pcb
+\i (00:39:23) zoom in 5.3797 20.0271
+\t (00:39:23) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:39:23) trapsize 13562
+\i (00:39:23) zoom in 1 
+\i (00:39:23) setwindow pcb
+\i (00:39:23) zoom in -13.0651 15.6872
+\t (00:39:23) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:39:23) trapsize 6781
+\i (00:39:24) zoom out 1 
+\i (00:39:24) setwindow pcb
+\i (00:39:24) zoom out -12.2513 15.8228
+\t (00:39:24) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:39:24) trapsize 13562
+\i (00:39:24) zoom in 1 
+\i (00:39:24) setwindow pcb
+\i (00:39:24) zoom in -21.2025 13.1104
+\t (00:39:24) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:39:24) trapsize 6781
+\i (00:39:24) zoom in 1 
+\i (00:39:24) setwindow pcb
+\i (00:39:24) zoom in -20.3887 12.4323
+\t (00:39:24) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:39:24) trapsize 3391
+\i (00:39:25) zoom out 1 
+\i (00:39:25) setwindow pcb
+\i (00:39:25) zoom out 1.5146 18.3998
+\t (00:39:25) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:39:25) trapsize 6781
+\i (00:39:28) artwork 
+\i (00:39:32) setwindow form.film_control
+\i (00:39:32) FORM film_control filmtree  TOP 
+\i (00:39:33) FORM film_control filmtree popup 'Display for Visibility' TOP 
+\i (00:39:33) setwindow pcb
+\i (00:39:33) updateport CVPane
+\i (00:39:40) setwindow form.film_control
+\i (00:39:40) FORM film_control filmtree popup Add TOP 
+\i (00:39:42) fillin "menu_cancel"
+\i (00:39:43) FORM film_control filmtree  ETCH/TOP TOP 
+\i (00:39:44) FORM film_control filmtree popup Add ETCH/TOP TOP 
+\i (00:39:44) setwindow form.scl_browser
+\i (00:39:44) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:39:46) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:39:48) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:39:48) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:39:49) FORM scl_browser done  
+\i (00:39:49) setwindow form.film_control
+\i (00:39:49) FORM film_control filmtree  BOTTOM 
+\i (00:39:51) FORM film_control filmtree popup 'Display for Visibility' BOTTOM 
+\i (00:39:51) setwindow pcb
+\i (00:39:51) updateport CVPane
+\i (00:39:54) setwindow form.film_control
+\i (00:39:54) FORM film_control filmtree popup Add BOTTOM 
+\i (00:39:55) fillin "menu_cancel"
+\i (00:39:56) FORM film_control filmtree  ETCH/BOTTOM BOTTOM 
+\i (00:39:58) FORM film_control filmtree popup Add ETCH/BOTTOM BOTTOM 
+\i (00:39:58) setwindow form.scl_browser
+\i (00:39:58) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:39:59) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:40:02) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:40:02) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:40:03) FORM scl_browser done  
+\i (00:40:06) setwindow form.film_control
+\i (00:40:06) FORM film_control filmtree popup Add ETCH/BOTTOM BOTTOM 
+\i (00:40:06) setwindow form.scl_browser
+\i (00:40:06) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:40:08) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:41:16) FORM scl_browser cancel  
+\i (00:41:21) setwindow form.film_control
+\i (00:41:21) FORM film_control undefined_line_width 0.127 
+\i (00:41:32) FORM film_control ok  
+\i (00:41:32) setwindow pcb
+\i (00:41:32) updateport SearchPane
+\i (00:41:32) generaledit 
+\t (00:41:32) [01:05:09.363170] Periodic Lic check successful
+[01:05:09.887481] Feature usage summary:
+[01:05:09.887482] OrCAD_X_PCB_Professional_Plus  
+[01:05:09.887482] OrCAD_X_Professional_Plus  
+\i (00:41:34) artwork 
+\i (00:41:38) setwindow form.film_control
+\i (00:41:38) FORM film_control filmtree  TOP 
+\i (00:41:41) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:41:42) FORM film_control filmtree  TOP 
+\i (00:41:43) FORM film_control filmtree popup Add TOP 
+\i (00:41:51) fillin "SOLDERMASKTOP"
+\i (00:41:52) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:41:54) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' TOP 
+\i (00:42:30) FORM film_control filmtree  ETCH/BOTTOM SOLDERMASKTOP 
+\i (00:42:31) FORM film_control filmtree popup Add ETCH/BOTTOM SOLDERMASKTOP 
+\i (00:42:31) setwindow form.scl_browser
+\i (00:42:31) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:42:33) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:42:35) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:36) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:37) FORM scl_browser treelist 'MULTISEL NO' OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:37) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:37) FORM scl_browser treelist 'MULTISEL NO' OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:37) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:37) FORM scl_browser treelist 'MULTISEL NO' OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:38) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:42:41) FORM scl_browser done  
+\i (00:42:50) setwindow form.film_control
+\i (00:42:50) FORM film_control undefined_line_width 0.175 
+\i (00:42:50) FORM film_control ok  
+\i (00:42:50) setwindow pcb
+\i (00:42:50) updateport SearchPane
+\i (00:42:50) generaledit 
+\i (00:42:52) artwork 
+\i (00:42:53) setwindow form.film_control
+\i (00:42:53) FORM film_control filmtree  TOP 
+\i (00:42:55) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:42:56) FORM film_control filmtree  ETCH/BOTTOM SOLDERMASKTOP 
+\i (00:42:58) FORM film_control filmtree popup Cut ETCH/BOTTOM SOLDERMASKTOP 
+\i (00:42:59) FORM film_control filmtree popup Cut PIN/BOTTOM SOLDERMASKTOP 
+\i (00:43:01) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' SOLDERMASKTOP 
+\i (00:43:02) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:43:03) FORM film_control filmtree popup Add SOLDERMASKTOP 
+\i (00:43:13) fillin "SOLDERMASKBOTTOM"
+\i (00:43:26) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (00:43:27) FORM film_control filmtree popup Add SOLDERMASKBOTTOM 
+\i (00:43:38) fillin "SILKSCREENTOP"
+\i (00:43:39) FORM film_control filmtree  SILKSCREENTOP 
+\i (00:43:40) FORM film_control filmtree popup Add SILKSCREENTOP 
+\i (00:43:51) fillin "SILKSCREENBOTTOM"
+\i (00:44:11) FORM film_control filmtree popup Add SILKSCREENTOP 
+\i (00:44:24) fillin "FABRICATION"
+\i (00:45:41) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (00:45:42) FORM film_control filmtree  SILKSCREENTOP 
+\i (00:45:43) FORM film_control filmtree  SILKSCREENBOTTOM 
+\i (00:45:44) FORM film_control filmtree  FABRICATION 
+\i (00:45:53) FORM film_control filmtree  ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:45:56) FORM film_control filmtree popup Add ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:45:56) setwindow form.scl_browser
+\i (00:45:56) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:45:58) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:46:02) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:46:02) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:46:03) FORM scl_browser done  
+\i (00:46:05) setwindow form.film_control
+\i (00:46:05) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENTOP 
+\i (00:46:07) FORM film_control filmtree popup Add ETCH/BOTTOM SILKSCREENTOP 
+\i (00:46:07) setwindow form.scl_browser
+\i (00:46:07) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:46:08) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:46:09) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:46:10) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:46:10) FORM scl_browser done  
+\i (00:46:12) setwindow form.film_control
+\i (00:46:12) FORM film_control filmtree  'VIA CLASS/BOTTOM' SILKSCREENTOP 
+\i (00:46:13) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' SILKSCREENTOP 
+\i (00:46:14) FORM film_control filmtree  PIN/BOTTOM SILKSCREENTOP 
+\i (00:46:15) FORM film_control filmtree popup Cut PIN/BOTTOM SILKSCREENTOP 
+\i (00:46:16) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENTOP 
+\i (00:46:16) FORM film_control filmtree popup Cut ETCH/BOTTOM SILKSCREENTOP 
+\i (00:46:17) FORM film_control filmtree  'VIA CLASS/BOTTOM' SOLDERMASKBOTTOM 
+\i (00:46:18) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' SOLDERMASKBOTTOM 
+\i (00:46:19) FORM film_control filmtree  PIN/BOTTOM SOLDERMASKBOTTOM 
+\i (00:46:21) FORM film_control filmtree popup Cut PIN/BOTTOM SOLDERMASKBOTTOM 
+\i (00:46:21) FORM film_control filmtree  ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:46:22) FORM film_control filmtree popup Cut ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:46:25) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:46:26) FORM film_control filmtree  PIN/BOTTOM SILKSCREENBOTTOM 
+\i (00:46:27) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:46:28) FORM film_control filmtree popup Add ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:46:28) setwindow form.scl_browser
+\i (00:46:28) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:46:30) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:46:31) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:46:32) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:46:33) FORM scl_browser done  
+\t (00:46:34) No command was found for ID 1.
+\i (00:46:34) setwindow form.film_control
+\i (00:46:34) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:46:35) FORM film_control filmtree popup Cut ETCH/BOTTOM SILKSCREENBOTTOM 
+\t (00:46:36) No command was found for ID 1.
+\i (00:46:36) FORM film_control filmtree  PIN/BOTTOM SILKSCREENBOTTOM 
+\i (00:46:37) FORM film_control filmtree popup Cut PIN/BOTTOM SILKSCREENBOTTOM 
+\i (00:46:38) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' SILKSCREENBOTTOM 
+\i (00:46:39) FORM film_control filmtree  ETCH/BOTTOM FABRICATION 
+\i (00:46:40) FORM film_control filmtree popup Add ETCH/BOTTOM FABRICATION 
+\i (00:46:40) setwindow form.scl_browser
+\i (00:46:40) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:46:41) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:46:44) FORM scl_browser treelist  CUTOUT 'BOARD GEOMETRY' 
+\i (00:46:44) FORM scl_browser treelist 'MULTISEL YES' CUTOUT 'BOARD GEOMETRY' 
+\i (00:46:45) FORM scl_browser done  
+\t (00:46:46) No command was found for ID 1.
+\i (00:46:46) setwindow form.film_control
+\i (00:46:46) FORM film_control filmtree  ETCH/BOTTOM FABRICATION 
+\i (00:46:47) FORM film_control filmtree popup Cut ETCH/BOTTOM FABRICATION 
+\t (00:46:48) No command was found for ID 1.
+\i (00:46:48) FORM film_control filmtree  PIN/BOTTOM FABRICATION 
+\i (00:46:49) FORM film_control filmtree popup Add PIN/BOTTOM FABRICATION 
+\i (00:46:49) setwindow form.scl_browser
+\i (00:46:49) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:46:50) FORM scl_browser cancel  
+\t (00:46:51) No command was found for ID 1.
+\i (00:46:51) setwindow form.film_control
+\i (00:46:51) FORM film_control filmtree  PIN/BOTTOM FABRICATION 
+\i (00:46:51) FORM film_control filmtree popup Cut PIN/BOTTOM FABRICATION 
+\t (00:46:52) No command was found for ID 1.
+\i (00:46:52) FORM film_control filmtree  'VIA CLASS/BOTTOM' FABRICATION 
+\i (00:46:53) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' FABRICATION 
+\i (00:47:20) FORM film_control filmtree  BOTTOM 
+\i (00:48:10) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:48:12) FORM film_control filmtree popup 'Undo Cut' SOLDERMASKTOP 
+\i (00:48:14) FORM film_control filmtree popup 'Undo Cut' SOLDERMASKTOP 
+\i (00:48:16) FORM film_control filmtree popup 'Undo Cut' SOLDERMASKTOP 
+\i (00:48:22) FORM film_control cancel  
+\i (00:48:22) setwindow pcb
+\i (00:48:23) updateport SearchPane
+\i (00:48:23) generaledit 
+\t (00:48:23) [01:12:00.424296] Periodic Lic check successful
+[01:12:00.424315] Feature usage summary:
+[01:12:00.424315] OrCAD_X_PCB_Professional_Plus  
+[01:12:00.424320] OrCAD_X_Professional_Plus  
+\i (00:48:25) artwork 
+\i (00:48:27) setwindow form.film_control
+\i (00:48:27) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:48:28) FORM film_control filmtree  BOTTOM 
+\i (00:48:30) FORM film_control filmtree  TOP 
+\i (00:48:33) FORM film_control filmtree  BOTTOM 
+\i (00:48:34) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:48:35) FORM film_control filmtree popup Add SOLDERMASKTOP 
+\i (00:48:51) fillin "SOLDERMASKBOTTOM"
+\i (00:48:53) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (00:48:56) FORM film_control filmtree popup Add SOLDERMASKBOTTOM 
+\i (00:49:01) fillin "SILKSCREENTOP"
+\i (00:49:02) FORM film_control filmtree  SILKSCREENTOP 
+\i (00:49:03) FORM film_control filmtree popup Add SILKSCREENTOP 
+\i (00:49:13) fillin "SILKSCREENBOTTOM"
+\i (00:49:26) FORM film_control filmtree  SILKSCREENBOTTOM 
+\i (00:49:27) FORM film_control filmtree popup Add SILKSCREENBOTTOM 
+\i (00:49:36) fillin "FABRICATION"
+\i (00:49:41) FORM film_control filmtree  BOTTOM 
+\i (00:49:43) FORM film_control filmtree  TOP 
+\i (00:49:44) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (00:49:45) FORM film_control filmtree  SILKSCREENTOP 
+\i (00:49:46) FORM film_control filmtree  SILKSCREENBOTTOM 
+\i (00:49:47) FORM film_control filmtree  FABRICATION 
+\i (00:49:47) FORM film_control filmtree  ETCH/BOTTOM FABRICATION 
+\i (00:49:47) FORM film_control filmtree  PIN/BOTTOM FABRICATION 
+\t (00:50:01) Grids are drawn 3.2000, 3.2000 apart for enhanced viewing.
+\i (00:50:01) setwindow pcb
+\i (00:50:01) trapsize 23903
+\i (00:50:18) setwindow form.film_control
+\i (00:50:18) FORM film_control filmtree popup Add PIN/BOTTOM FABRICATION 
+\i (00:50:18) setwindow form.scl_browser
+\i (00:50:18) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:50:21) FORM scl_browser cancel  
+\i (00:50:53) setwindow form.film_control
+\i (00:50:53) FORM film_control filmtree  ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:50:53) FORM film_control filmtree popup Add ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:50:53) setwindow form.scl_browser
+\i (00:50:53) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:50:57) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:50:59) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:51:00) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:51:01) FORM scl_browser done  
+\i (00:51:02) setwindow form.film_control
+\i (00:51:02) FORM film_control filmtree  'VIA CLASS/BOTTOM' SOLDERMASKBOTTOM 
+\i (00:51:04) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' SOLDERMASKBOTTOM 
+\i (00:51:04) FORM film_control filmtree  PIN/BOTTOM SOLDERMASKBOTTOM 
+\i (00:51:05) FORM film_control filmtree popup Cut PIN/BOTTOM SOLDERMASKBOTTOM 
+\i (00:51:06) FORM film_control filmtree  ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:51:07) FORM film_control filmtree popup Cut ETCH/BOTTOM SOLDERMASKBOTTOM 
+\i (00:51:20) FORM film_control filmtree popup Add 'BOARD GEOMETRY/OUTLINE' SOLDERMASKBOTTOM 
+\i (00:51:20) setwindow form.scl_browser
+\i (00:51:20) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:51:23) FORM scl_browser treelist  PIN 
+\i (00:51:42) FORM scl_browser treelist  SOLDERMASK_BOTTOM PIN 
+\i (00:51:44) FORM scl_browser treelist 'MULTISEL YES' SOLDERMASK_BOTTOM PIN 
+\i (00:51:45) FORM scl_browser done  
+\i (00:51:57) setwindow form.film_control
+\i (00:51:57) FORM film_control filmtree popup Add 'BOARD GEOMETRY/OUTLINE' SOLDERMASKBOTTOM 
+\i (00:51:57) setwindow form.scl_browser
+\i (00:51:57) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:52:03) FORM scl_browser treelist  'VIA CLASS' 
+\i (00:52:06) FORM scl_browser treelist  SOLDERMASK_BOTTOM 'VIA CLASS' 
+\i (00:52:06) FORM scl_browser treelist 'MULTISEL YES' SOLDERMASK_BOTTOM 'VIA CLASS' 
+\i (00:52:07) FORM scl_browser done  
+\i (00:52:17) setwindow form.film_control
+\i (00:52:17) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENTOP 
+\i (00:52:18) FORM film_control filmtree popup Add ETCH/BOTTOM SILKSCREENTOP 
+\i (00:52:18) setwindow form.scl_browser
+\i (00:52:18) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:52:20) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:52:22) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:52:22) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:52:23) FORM scl_browser done  
+\i (00:52:26) setwindow form.film_control
+\i (00:52:26) FORM film_control filmtree popup Cut ETCH/BOTTOM SILKSCREENTOP 
+\i (00:52:28) FORM film_control filmtree popup Cut PIN/BOTTOM SILKSCREENTOP 
+\i (00:52:29) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' SILKSCREENTOP 
+\t (00:52:30) No command was found for ID 1.
+\i (00:52:30) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' SILKSCREENTOP 
+\i (00:52:30) FORM film_control filmtree popup Add 'BOARD GEOMETRY/OUTLINE' SILKSCREENTOP 
+\i (00:52:30) setwindow form.scl_browser
+\i (00:52:30) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:52:36) FORM scl_browser treelist  PIN 
+\i (00:52:40) FORM scl_browser treelist  SOLDERMASK_TOP PIN 
+\i (00:52:40) FORM scl_browser treelist 'MULTISEL YES' SOLDERMASK_TOP PIN 
+\i (00:52:44) FORM scl_browser treelist  'VIA CLASS' 
+\i (00:52:47) FORM scl_browser treelist  SOLDERMASK_TOP 'VIA CLASS' 
+\i (00:52:47) FORM scl_browser treelist 'MULTISEL YES' SOLDERMASK_TOP 'VIA CLASS' 
+\i (00:52:48) FORM scl_browser done  
+\i (00:53:09) setwindow form.film_control
+\i (00:53:09) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:53:10) FORM film_control filmtree popup Add ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:53:10) setwindow form.scl_browser
+\i (00:53:10) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:53:12) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:53:14) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:53:14) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:53:15) FORM scl_browser done  
+\i (00:53:16) setwindow form.film_control
+\i (00:53:16) FORM film_control filmtree  'VIA CLASS/BOTTOM' SILKSCREENBOTTOM 
+\i (00:53:17) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' SILKSCREENBOTTOM 
+\i (00:53:18) FORM film_control filmtree  PIN/BOTTOM SILKSCREENBOTTOM 
+\i (00:53:18) FORM film_control filmtree popup Cut PIN/BOTTOM SILKSCREENBOTTOM 
+\i (00:53:19) FORM film_control filmtree  ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:53:20) FORM film_control filmtree popup Cut ETCH/BOTTOM SILKSCREENBOTTOM 
+\i (00:53:21) FORM film_control filmtree popup Add 'BOARD GEOMETRY/OUTLINE' SILKSCREENBOTTOM 
+\i (00:53:21) setwindow form.scl_browser
+\i (00:53:21) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:53:38) FORM scl_browser treelist  'PACKAGE GEOMETRY' 
+\i (00:53:46) FORM scl_browser treelist  SILKSCREEN_BOTTOM 'PACKAGE GEOMETRY' 
+\i (00:53:46) FORM scl_browser treelist 'MULTISEL YES' SILKSCREEN_BOTTOM 'PACKAGE GEOMETRY' 
+\i (00:53:57) FORM scl_browser treelist  'REF DES' 
+\i (00:54:02) FORM scl_browser treelist  SILKSCREEN_BOTTOM 'REF DES' 
+\i (00:54:02) FORM scl_browser treelist 'MULTISEL YES' SILKSCREEN_BOTTOM 'REF DES' 
+\i (00:54:04) FORM scl_browser done  
+\i (00:54:08) setwindow form.film_control
+\i (00:54:08) FORM film_control filmtree  SILKSCREENTOP 
+\i (00:54:09) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (00:54:12) FORM film_control filmtree  SILKSCREENBOTTOM 
+\i (00:54:13) FORM film_control filmtree  TOP 
+\i (00:54:16) FORM film_control filmtree  BOTTOM 
+\i (00:54:24) FORM film_control filmtree  ETCH/BOTTOM SOLDERMASKTOP 
+\i (00:54:27) FORM film_control filmtree popup Cut ETCH/BOTTOM SOLDERMASKTOP 
+\i (00:54:28) FORM film_control filmtree popup Cut PIN/BOTTOM SOLDERMASKTOP 
+\i (00:54:43) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' SOLDERMASKTOP 
+\i (00:54:45) FORM film_control filmtree popup Add 'BOARD GEOMETRY/OUTLINE' SOLDERMASKTOP 
+\i (00:54:45) setwindow form.scl_browser
+\i (00:54:45) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:54:47) FORM scl_browser treelist  PIN 
+\i (00:55:02) FORM scl_browser treelist  SOLDERMASK_TOP PIN 
+\i (00:55:04) FORM scl_browser treelist 'MULTISEL YES' SOLDERMASK_TOP PIN 
+\i (00:55:05) FORM scl_browser done  
+\i (00:55:08) setwindow form.film_control
+\i (00:55:08) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:55:09) FORM film_control filmtree  BOTTOM 
+\i (00:55:17) FORM film_control filmtree  ETCH/BOTTOM FABRICATION 
+\i (00:55:19) FORM film_control filmtree popup Add ETCH/BOTTOM FABRICATION 
+\i (00:55:19) setwindow form.scl_browser
+\i (00:55:19) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:55:23) FORM scl_browser treelist  'BOARD GEOMETRY' 
+\i (00:55:25) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
+\i (00:55:26) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:55:28) FORM scl_browser treelist 'MULTISEL NO' OUTLINE 'BOARD GEOMETRY' 
+\i (00:55:29) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
+\i (00:55:30) FORM scl_browser done  
+\i (00:55:32) setwindow form.film_control
+\i (00:55:32) FORM film_control filmtree popup Cut ETCH/BOTTOM FABRICATION 
+\i (00:55:33) FORM film_control filmtree popup Cut PIN/BOTTOM FABRICATION 
+\i (00:55:35) FORM film_control filmtree popup Cut 'VIA CLASS/BOTTOM' FABRICATION 
+\i (00:55:37) FORM film_control filmtree popup Add 'BOARD GEOMETRY/OUTLINE' FABRICATION 
+\i (00:55:37) setwindow form.scl_browser
+\i (00:55:37) FORM scl_browser treelist  'ANTI ETCH' 
+\i (00:55:44) FORM scl_browser treelist  MANUFACTURING 
+\i (00:55:50) FORM scl_browser treelist  NCLEGEND-1-2 MANUFACTURING 
+\i (00:55:50) FORM scl_browser treelist 'MULTISEL YES' NCLEGEND-1-2 MANUFACTURING 
+\i (00:55:51) FORM scl_browser done  
+\i (00:55:57) setwindow form.film_control
+\i (00:55:57) FORM film_control filmtree  FABRICATION 
+\i (00:56:04) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (00:56:12) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:56:13) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (00:56:15) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:56:20) FORM film_control filmtree  SILKSCREENBOTTOM 
+\i (00:56:26) FORM film_control filmtree  SILKSCREENTOP 
+\i (00:56:30) FORM film_control filmtree  TOP 
+\i (00:57:10) FORM film_control create  
+\i (00:57:31) fillin no 
+\i (00:57:41) FORM film_control undefined_line_width 0.175 
+\i (00:57:42) FORM film_control ok  
+\i (00:57:42) setwindow pcb
+\i (00:57:42) updateport SearchPane
+\i (00:57:42) generaledit 
+\t (00:57:42) [01:21:19.450139] Periodic Lic check successful
+[01:21:19.450178] Feature usage summary:
+[01:21:19.450179] OrCAD_X_PCB_Professional_Plus  
+[01:21:19.450184] OrCAD_X_Professional_Plus  
+\i (00:57:44) zoom out 1 
+\i (00:57:44) setwindow pcb
+\i (00:57:44) zoom out 132.7616 206.2791
+\i (00:57:44) trapsize 39370
+\i (00:57:45) zoom out 1 
+\i (00:57:45) setwindow pcb
+\i (00:57:45) zoom out 168.7008 163.1889
+\i (00:57:45) trapsize 39370
+\i (00:57:45) zoom out 1 
+\i (00:57:45) setwindow pcb
+\i (00:57:45) zoom out 124.6063 145.8661
+\i (00:57:45) trapsize 39370
+\t (00:57:46) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:57:46) trapsize 11169
+\i (00:57:48) artwork 
+\i (00:57:49) setwindow form.film_control
+\i (00:57:49) FORM film_control filmtree  TOP 
+\i (00:57:52) FORM film_control filmtree  SOLDERMASKTOP 
+\i (00:57:55) FORM film_control filmtree  TOP 
+\i (00:58:02) FORM film_control undefined_line_width 0.00000 
+\i (00:58:02) FORM film_control create  
+\i (00:58:03) fillin yes 
+\w (00:58:03) No film records selected.
+\i (00:58:08) FORM film_control create  
+\i (00:59:34) fillin yes 
+\w (00:59:34) No film records selected.
+\i (00:59:39) FORM film_control ok  
+\i (00:59:40) setwindow pcb
+\i (00:59:40) updateport SearchPane
+\i (00:59:40) generaledit 
+\t (00:59:43) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:59:43) trapsize 7812
+\i (00:59:46) trapsize 9798
+\i (00:59:50) QtSignal CVPLayerGrid CVPButtonEtchTop clicked
+\i (00:59:50) updateport CVPane
+\i (00:59:51) QtSignal CVPLayerGrid CVPButtonViaTop clicked
+\i (00:59:51) updateport CVPane
+\i (00:59:51) QtSignal CVPLayerGrid CVPButtonPinTop clicked
+\i (00:59:51) updateport CVPane
+\i (00:59:52) QtSignal CVPLayerGrid CVPButtonDrcTop clicked
+\i (00:59:52) updateport CVPane
+\i (00:59:53) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:59:54) QtSignal CVPLayerGrid CVPBoxAllAll clicked true
+\i (00:59:54) updateport CVPane
+\i (00:59:55) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:59:56) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:59:57) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:59:58) QtSignal CVPLayerGrid CVPBoxAllAll clicked false
+\i (00:59:58) updateport CVPane
+\i (00:59:59) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (01:00:00) QtSignal CVPLayerGrid CVPButtonEtchBottom clicked
+\i (01:00:00) updateport CVPane
+\i (01:00:02) QtSignal CVPLayerGrid CVPButtonViaBottom clicked
+\i (01:00:02) updateport CVPane
+\i (01:00:03) QtSignal CVPLayerGrid CVPButtonEtchBottom clicked
+\i (01:00:03) updateport CVPane
+\i (01:00:03) QtSignal CVPLayerGrid CVPButtonPinBottom clicked
+\i (01:00:03) updateport CVPane
+\i (01:00:05) QtSignal CVPLayerGrid CVPButtonDrcBottom clicked
+\i (01:00:05) updateport CVPane
+\i (01:00:06) QtSignal CVPLayerGrid CVPButtonDrcBottom clicked
+\i (01:00:06) updateport CVPane
+\i (01:00:07) QtSignal CVPLayerGrid CVPButtonViaBottom clicked
+\i (01:00:07) updateport CVPane
+\i (01:00:08) QtSignal CVPLayerGrid CVPButtonPinTop clicked
+\i (01:00:08) updateport CVPane
+\i (01:00:10) QtSignal CVPLayerGrid CVPButtonDrcTop clicked
+\i (01:00:10) updateport CVPane
+\i (01:00:12) QtSignal CVPLayerGrid CVPConductorsDrc clicked true
+\i (01:00:14) QtSignal CVPLayerGrid CVPConductorsVia clicked true
+\i (01:00:16) QtSignal CVPLayerGrid CVPButtonEtchBottom clicked
+\i (01:00:16) updateport CVPane
+\i (01:00:17) QtSignal CVPLayerGrid CVPButtonEtchBottom clicked
+\i (01:00:17) updateport CVPane
+\i (01:00:18) QtSignal CVPLayerGrid CVPButtonEtchTop clicked
+\i (01:00:18) updateport CVPane
+\i (01:00:18) QtSignal CVPLayerGrid CVPButtonEtchTop clicked
+\i (01:00:18) updateport CVPane
+\i (01:00:26) save 
+\i (01:00:28) fillin yes 
+\e (01:00:28) File "demo.brd" is being edited by user "anshu" on date "Sat Mar  7 00:06:55 2026" on system "LAPTOP-HTNQOTB1".  Save design to another name or contact user to remove their lock.
+\i (01:00:31) fillin confirm
+\i (01:00:31) generaledit 
+\i (01:00:35) save_as 
+\i (01:01:16) fillin "C:/Users/anshu/Downloads/demo.brd"
+\i (01:01:16) cd "C:/Users/anshu/Downloads"
+\i (01:01:16) generaledit 
+\i (01:01:20) save_as 
+\i (01:01:32) fillin "menu_cancel"
+\i (01:01:32) generaledit 
+\i (01:02:49) save_as 
+\t (01:02:49) [01:26:27.295963] Periodic Lic check successful
+[01:26:27.295986] Feature usage summary:
+[01:26:27.295987] OrCAD_X_PCB_Professional_Plus  
+[01:26:27.295987] OrCAD_X_Professional_Plus  
+\i (01:03:03) fillin "D:/OrCAD_Projects/day-05/Board/demo.brd"
+\i (01:03:03) cd "D:/OrCAD_Projects/day-05/Board"
+\e (01:03:03) File "demo.brd" is being edited by user "anshu" on date "Sat Mar  7 00:06:55 2026" on system "LAPTOP-HTNQOTB1".  Save design to another name or contact user to remove their lock.
+\i (01:03:14) fillin confirm
+\i (01:03:14) generaledit 
+\i (01:03:17) save_as 
+\i (01:03:24) fillin "demo1.brd"
+\i (01:03:25) generaledit 
+\i (01:04:34) artwork 
+\i (01:04:38) setwindow form.film_control
+\i (01:04:38) FORM film_control filmtree  TOP 
+\i (01:04:38) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (01:04:39) FORM film_control filmtree  SOLDERMASKTOP 
+\i (01:04:39) FORM film_control filmtree 'MULTISEL YES' SOLDERMASKTOP 
+\i (01:04:41) FORM film_control filmtree  SOLDERMASKBOTTOM 
+\i (01:04:41) FORM film_control filmtree 'MULTISEL YES' SOLDERMASKBOTTOM 
+\i (01:04:41) FORM film_control filmtree  SILKSCREENTOP 
+\i (01:04:42) FORM film_control filmtree 'MULTISEL YES' SILKSCREENTOP 
+\i (01:04:42) FORM film_control filmtree  SILKSCREENBOTTOM 
+\i (01:04:43) FORM film_control filmtree  FABRICATION 
+\i (01:04:43) FORM film_control filmtree 'MULTISEL YES' FABRICATION 
+\i (01:04:43) FORM film_control filmtree  SILKSCREENBOTTOM 
+\i (01:04:43) FORM film_control filmtree 'MULTISEL YES' SILKSCREENBOTTOM 
+\i (01:04:44) FORM film_control filmtree  BOTTOM 
+\i (01:04:44) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (01:04:45) FORM film_control create  
+\i (01:04:47) fillin yes 
+\t (01:04:47) Checking db records
+\t (01:04:47)     checking for orphans...
+\t (01:04:47)     Checked 100 percent
+\t (01:04:47) Done dbdoctor.
+\t (01:04:48) Starting Create artwork films...
+\i (01:04:48) setwindow pcb
+\i (01:04:48) updateport SearchPane
+\t (01:04:48) SpawnProcessExit background process completed status = 1
+
+\w (01:04:48) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (01:04:49) Artwork generated with warnings.
+\i (01:04:55) setwindow text
+\i (01:04:55) close
+\i (01:04:56) setwindow form.film_control
+\i (01:04:56) FORM film_control ok  
+\i (01:04:56) setwindow pcb
+\i (01:04:56) updateport SearchPane
+\i (01:04:56) generaledit 
+\i (01:05:01) pick grid 109.2260 2.2371
+\t (01:05:01) last pick:  109.2000 2.2000
+\i (01:05:01) save 
+\i (01:05:03) fillin yes 
+\t (01:05:03) Loading signal.cxt 
+\i (01:05:03) generaledit 
+\i (01:06:17) exit 
+\t (01:06:17) Lic Summary:
+[01:29:55.014770] Cdslmd servers:C:\Users\anshu\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[01:29:55.015082] Feature usage summary:
+[01:29:55.015083] OrCAD_X_PCB_Professional_Plus  
+[01:29:55.015088] OrCAD_X_Professional_Plus  
+\t (01:06:17)     Journal end - Sat Mar  7 01:29:55 2026
