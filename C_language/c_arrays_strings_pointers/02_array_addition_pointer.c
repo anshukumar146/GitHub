@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-int n,i;
-int *p;
+int n,i,*p;
+    
 printf("Enter the size of first array:\n");             //Ask user for size of array.
 scanf("%d",&n);
 int arr1[n],arr2[n],arr3[n];
