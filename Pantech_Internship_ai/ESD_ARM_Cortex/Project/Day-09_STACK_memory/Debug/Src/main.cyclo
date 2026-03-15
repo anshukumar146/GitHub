@@ -1,0 +1,5 @@
+../Src/main.c:25:5:function_add	1
+../Src/main.c:31:28:change_sp_to_psp	1
+../Src/main.c:42:6:generate_exception	1
+../Src/main.c:48:5:main	1
+../Src/main.c:59:6:SVC_Handler	1
