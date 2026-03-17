@@ -31,7 +31,7 @@ int main(void)
 	*pNVIC_ISER1 |=(1<<(USART2_IRQNO%32));
 
 
-    /* Loop forever */
+    
 	for(;;);
 }
 
