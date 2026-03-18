@@ -1,30 +1,39 @@
+# ARDUINO UNO
 
-<h1 align="center">Hi 👋, I'm Anshu kumar.</h1>
-<h3 align="center">This is my GitHub repository for Arduino, where I upload problems and their solutions encountered during practice. Find both Thinkercad simulations and real project demos here. Thank you. ありがとう</h3>
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/75851313/151668395-5591532b-28da-46a6-9476-7c9694bcb60e.gif">
+This folder contains simple and beginner-friendly Arduino projects .
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=anshukumar146&label=Profile%20views&color=0e75b6&style=flat" alt="anshukumar146" /> </p>
+Each program demonstrates a fundamental concept in C.
 
-- 🔭 I’m currently working on **Arduino projects**
+## 📂 Programs
 
-- 🌱 I’m currently learning **C language , Japanese**
-- 🔭 I’m currently working on **Arduino projects**
-- skill learned :- **Git , C , html , css.**
-- 📫 How to reach me **anshukumarxyz730@gmail.com**
+- *[02_Smart_dustbinm](./02_Smart_dustbin)* → Print "Hello, World!" .
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/_anshu_730" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_anshu_730" height="30" width="40" /></a>
-</p>
+- *[02_Smart_dustbin](./Basic_projects/02_Smart_dustbin)* → The pdf  contains code along with all the information as well as some real handmade images.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>  </p>
+- *[03_swap_numbers_with_third_variable](./03_swap_numbers_with_third_variable.c)* → Swap two numbers using a third variable.
 
+- *[04_swap_numbers_using_XOR](./04_swap_numbers_using_XOR.c)* → swap two numbers using XOR.
 
+- *[05_largest_of_number](./05_largest_of_number.c)* → Find the largest number among 3 number using if, else-if and else.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anshukumar146&show_icons=true&locale=en&layout=compact" alt="anshukumar146" /></p>
+- *[06_check_even_odd](./06_ck_even_odd.c)* → check for even or odd.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anshukumar146&show_icons=true&locale=en" alt="anshukumar146" /></p>
+- *[07_factorial](./07_factorial.c)* → Find factorial of a number using loop.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=anshukumar146&" alt="anshukumar146" /></p>
+ 
 
+- *[08_reverse_a_number](./08_reverse_a_number.c)* → Reverse the digits of a number
+
+- *[09_palindrome_check](./09_palindrome_check.c)* → Check if a number is palindrome
+
+ 
+
+- *[10_fibonacci_sequence](./10_fibonacci_sequence.c)* → check for Fibonacci sequence
+
+- *[11_calculator_using_switch](./11_calculator_using_switch.c)* → Do simple operation (addition , subtraction , multiplication and division ) between two number.
+- *[12_geometry_calculator.c](./12_geometry_calculator.c)* → Ask for choice then calculate geometry of shape.
+## ⚙ How to Run
+
+gcc filename.c -o output
+
+./output
