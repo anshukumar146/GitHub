@@ -6,7 +6,7 @@ Each program demonstrates a fundamental concept in C.
 
 ## 📂 Programs
 
-- *[02_Smart_dustbinm](./02_Smart_dustbin)* → Print "Hello, World!" .
+- *[01_Blink_led](./01_Blink_led)* → Blinks  LED.
 
 - *[02_Smart_dustbin](./Basic_projects/02_Smart_dustbin)* → The pdf  contains code along with all the information as well as some real handmade images.
 
