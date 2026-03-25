@@ -28,6 +28,7 @@ Each program demonstrates a fundamental concept in C.
               <h3>watashi,anata,sensei,kyoushi,gakusei,kaishain,shain,ginkouin,isha,kenyuusha,enjinia,daigaku,byouin,denki</h3>   
  
 -  [12_Swap_number_using_pointer.c](./12_Swap_number_using_pointer.c)→Swaps two numbers using pointer with third temporary variable.
+- [13_Anagram.c](./13_Anagram.c)→check if the word is ANAGRAM or not. An anagram refers to a word or phrase formed by rearranging the letters of a different word or phrase, using all the original letters exactly once. Two strings are considered anagrams if they contain the exact same characters with the same frequencies, regardless of the character order.
 - [14_sum_of_row_and_column_of_2D_array.c](./14_sum_of_row_and_column_of_2D_array.c)* → Find the sum of rows and columns of 2D array.
 - [15_principle_and_secondary_diagonal_2D_array.c](./15_principle_and_secondary_diagonal_2D_array.c)* → Print the principle and secondary diagonal of 2D array.c
 -  *[16_check_for_NULL_and_Identity_matrix.c](./16_check_for_NULL_and_Identity_matrix.c)* → Check for NULL and Identity matrix.
