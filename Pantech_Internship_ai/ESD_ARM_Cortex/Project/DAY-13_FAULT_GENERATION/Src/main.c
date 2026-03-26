@@ -27,11 +27,11 @@ int main(void)
 	uint32_t *pSHCSR = (uint32_t*)0xe000ed24;
 
 	//Enable the fault
-//	*pSHCSR |= (1<<18); //usage fault
+	*pSHCSR |= (1<<18); //usage fault
 	*pSHCSR |= (1<<17); //Bus fault
 	*pSHCSR |= (1<<16); //Mem fault
 
-// Lets force the processor to execute an undefined instruction
+// force the processor to execute an undefined instruction
 
 	void(*random_address)(void);
 	random_address=(void*)0xe0000008;
