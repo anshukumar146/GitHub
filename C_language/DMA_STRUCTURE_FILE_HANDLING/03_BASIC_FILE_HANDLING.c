@@ -1,0 +1,1 @@
+/*Read "n"character and write into file named Data.txt , read this file and display content of this file on the screen, Also sort them into three file as alphabet,number and special character.*/
