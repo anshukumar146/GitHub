@@ -28,7 +28,7 @@
 
 <p>
   <img align="center" 
-       src="https://github-readme-streak-stats.herokuapp.com/?user=anshukumar146&cache_bust=1" 
+       src="https://github-readme-streak-stats.herokuapp.com/?user=anshukumar146&" 
        alt="anshukumar146" />
 </p>
 
