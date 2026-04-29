@@ -26,9 +26,9 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anshukumar146&show_icons=true&locale=en" alt="anshukumar146" /></p>
 
-<p>
-  <img align="center" 
-       src="https://github-readme-streak-stats.herokuapp.com/?user=anshukumar146&" 
-       alt="anshukumar146" />
+<p align="center">
+  <img 
+    src="https://streak-stats.demolab.com?user=anshukumar146&theme=default&ring=ff69b4&fire=ff1493&currStreakLabel=ff69b4&sideLabels=ff69b4&dates=ffb6c1" 
+    alt="GitHub Streak"
+  />
 </p>
-
