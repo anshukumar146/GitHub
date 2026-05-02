@@ -1,4 +1,4 @@
-<img src="https://readme-typing-svg.herokuapp.com?color=F70000&size=35&center=true&vCenter=true&width=1000&lines=Electronics+and+Communication+Engineering;Embedded+Systems+Learner;C+Embedded+and+C+lanugage+Programmer;Anshu+kumar" />
+<img src="https://readme-typing-svg.herokuapp.com?color=F70000&size=35&center=true&vCenter=true&width=1000&lines=Electronics+and+Communication+Engineering;Embedded+Systems+Learner;Embedded+C+%7C+C+Programmer;Anshu+kumar" />
 
 
 ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
@@ -11,7 +11,7 @@ Embedded Systems & IoT Learner | ECE Student | C & Arduino Developer
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anshukumar146&label=Profile%20views&color=0e75b6&style=flat" alt="anshukumar146" /> </p>
 
-- 🔭 I’m currently working on **Arduino projects as well as Arm cortex architecture**
+- 🔭 I’m currently working on **Arduino Projects and ARM Cortex Architecture**
 
 - 🌱 I’m currently learning **Japanese**
 - 🌱 I’m currently reading **Practical Electronics for Inventors**
@@ -26,7 +26,6 @@ Embedded Systems & IoT Learner | ECE Student | C & Arduino Developer
 
 <h2 align="left">Languages and Tools:</h2>
 
-<h2 align="left">Languages and Tools:</h2>
 
 <table>
 <tr>
@@ -90,9 +89,9 @@ width="330"
 
 
 
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anshukumar146&theme=tokyo-night" />
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anshukumar146&theme=tokyo-night" />
+</p>
 
 
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
