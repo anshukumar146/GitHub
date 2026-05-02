@@ -2,7 +2,7 @@
 /*Input N integers using DMA. Input a no and count how many nos are larger, smaller and equal
 to that number.*/
 
-
+/*
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -38,4 +38,6 @@ printf(" \n ");
 printf("larger= %d \n",lar);
 printf("smaller= %d \n",small);
 printf("equal= %d \n",equ);
-}
+}*/
+
+
