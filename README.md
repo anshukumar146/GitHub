@@ -93,6 +93,6 @@ width="330"
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anshukumar146&theme=tokyo-night" />
 </p>
 
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anshukumar146/GitHub/output/github-snake-dark.svg" alt="Snake animation"/>
+</p>
