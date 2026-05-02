@@ -1,15 +1,20 @@
+<img src="https://readme-typing-svg.herokuapp.com?color=F70000&size=35&center=true&vCenter=true&width=1000&lines=Electronics+and+Communication+Engineering;Embedded+Systems+Learner;C+Embedded+and+C+lanugage+Programmer;Anshu+kumar" />
+
+
 ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
 <h1 align="center">こんにちは (Hello) 👋 I'm Anshu kumar(アンシュ・クマール).</h1>
-<h3 align="center"># This is my github account, where I upload coding problems and my projects as well as internship learnings . # 📂 Folder Structure → C_language   →Arduino</h3>
+<h3 align="center">
+Embedded Systems & IoT Learner | ECE Student | C & Arduino Developer
+</h3>
 <h1 align="center">Thank you(ありがとう ございます)</h1>
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/75851313/151668395-5591532b-28da-46a6-9476-7c9694bcb60e.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anshukumar146&label=Profile%20views&color=0e75b6&style=flat" alt="anshukumar146" /> </p>
 
-- 🔭 I’m currently working on **Arduino projects**
+- 🔭 I’m currently working on **Arduino projects as well as Arm cortex architecture**
 
-- 🌱 I’m currently learning **C language , Japanese**
-- skill learned :- **Git , C , html , css.**
+- 🌱 I’m currently learning **Japanese**
+- 🌱 I’m currently reading **Practical Electronics for Inventors**
 - 📫 How to reach me **anshukumarxyz730@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
@@ -17,18 +22,78 @@
 <a href="https://instagram.com/_anshu_730" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_anshu_730" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>  </p>
+
+
+<h2 align="left">Languages and Tools:</h2>
+
+<h2 align="left">Languages and Tools:</h2>
+
+<table>
+<tr>
+
+<td width="75%" valign="top">
+
+<p align="left">
+
+<a href="https://www.arduino.cc/" target="_blank">
+<img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="45" height="45"/>
+</a>
+
+<a href="https://www.cprogramming.com/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="45" height="45"/>
+</a>
+
+<a href="https://www.linux.org/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="45" height="45"/>
+</a>
+
+<a href="https://git-scm.com/" target="_blank">
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="45" height="45"/>
+</a>
+
+<a href="https://kicad.org/" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/KiCad-Logo.svg" width="45" height="45"/>
+</a>
+
+<a href="https://www.arm.com/" target="_blank">
+<img src="https://cdn.worldvectorlogo.com/logos/arm.svg" width="55" height="45"/>
+</a>
+
+<img src="https://img.shields.io/badge/OrCAD-PCB%20Design-red?style=for-the-badge"/>
+
+</p>
+
+</td>
+
+<td width="30%" align="center" valign="middle">
+
+<img
+src="https://github-profile-trophy.vercel.app/?username=anshukumar146&theme=radical&title=Commits&no-frame=true&row=1&column=1"
+width="330"
+/>
+
+</td>
+
+</tr>
+</table>
 
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anshukumar146&show_icons=true&locale=en&layout=compact" alt="anshukumar146" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anshukumar146&show_icons=true&locale=en" alt="anshukumar146" /></p>
+
+
 
 <p align="center">
-  <img 
-    src="https://streak-stats.demolab.com?user=anshukumar146&theme=default&ring=ff69b4&fire=ff1493&currStreakLabel=ff69b4&sideLabels=ff69b4&dates=ffb6c1" 
-    alt="GitHub Streak"
-  />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshukumar146&theme=tokyonight" />
 </p>
+
+
+
+
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anshukumar146&theme=tokyo-night" />
+
+
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+
