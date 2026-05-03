@@ -96,3 +96,7 @@ width="330"
 <p align="center">
   <img src="https://raw.githubusercontent.com/anshukumar146/GitHub/output/github-snake-dark.svg" alt="Snake animation"/>
 </p>
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@anshukumar146?theme=rule34" />
+</p>
