@@ -5,6 +5,6 @@ num1 = int(input("Enter a number:"))
 if (num1 > 0) :
     print("It is a positive number.")
 elif ( num1 == 0) :
-    print("It is a zero.")
+    print("Number is zero.")
 else:
     print("It is a negative number.")
