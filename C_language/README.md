@@ -6,12 +6,3 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anshukumar146&label=Profile%20views&color=0e75b6&style=flat" alt="anshukumar146" /> </p>
 
 - 🔭 I’m currently working on **Arduino projects**
-
-- 🌱 I’m currently learning **C language , Japanese**
-- skill learned :- **Git , C , html , css.**
-- 📫 How to reach me **anshukumarxyz730@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/_anshu_730" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_anshu_730" height="30" width="40" /></a>
-</p>
