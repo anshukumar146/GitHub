@@ -27,7 +27,7 @@ int main() {
     }
 
     for (int i = 0; i < n; i++) {
-        s[i].percent = (s[i].mark1 + s[i].mark2 + s[i].mark3) / 3.0;  // ✅ fixed
+        s[i].percent = (s[i].mark1 + s[i].mark2 + s[i].mark3) / 3.0; 
     }
 
     for (int i = 0; i < n; i++) {
