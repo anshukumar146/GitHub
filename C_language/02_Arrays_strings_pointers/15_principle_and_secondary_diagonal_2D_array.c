@@ -23,8 +23,7 @@ printf("\n");
 printf("The secondary diagonal is:\n");      //print the secondary diagonal.
 for(i=0,j=m-1; i<n;i++,j--)
 {
-
-    {printf("%d ",arr1[i][j]);
-}}
+ { printf("%d ",arr1[i][j]); }
+}
 printf("\n");
 }
