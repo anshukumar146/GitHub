@@ -95,5 +95,5 @@
 |       Pin property added    :       6                                        |
 |       Slot property added   :      15                                        |
 |                                                                              |
-|   Total ECO changes reported:      33                                        |
+|   Total ECO changes reported:      33                                         |
 |------------------------------------------------------------------------------|
