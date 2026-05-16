@@ -14,5 +14,5 @@ Each program demonstrates a fundamental concept in C.
 
 gcc filename.c -o output
 
-./output
+./output 
 
