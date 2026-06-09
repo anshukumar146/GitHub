@@ -1,6 +1,4 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=F70000&size=35&center=true&vCenter=true&width=1000&lines=Electronics+and+Communication+Engineering;Embedded+Systems+Learner;Embedded+C+%7C+C+Programmer;Anshu+kumar" />  
-
-
 ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
 <h1 align="center">こんにちは (Hello) 👋 I'm Anshu kumar(アンシュ・クマール).</h1>
 <h3 align="center">
