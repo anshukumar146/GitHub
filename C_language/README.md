@@ -1,5 +1,4 @@
 # 💻 C Programming Questions.
-
 Welcome to my C language learning repository! This workspace tracks my progress through foundational programming problems, data structures, algorithm implementations, and memory management tasks.
 ---
 
