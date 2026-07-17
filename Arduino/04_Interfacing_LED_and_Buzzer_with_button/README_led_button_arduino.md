@@ -59,7 +59,7 @@ This exact input-to-output pattern scales up to real systems: light switches, sa
 └── circuit_diagram.md       # TinkerCAD circuit diagram, block code screenshot, and handmade schematic
 ```
 
-> **Note:** Despite the folder name mentioning a buzzer, the current `Button.ino` sketch only controls an LED — no buzzer logic is present in the code at this time.
+> **Note:** Despite the folder name mentioning a buzzer, the current `Button.ino` sketch only controls an LED — no buzzer logic is present in the code at this time and the buzzer is connected with the same LED.
 
 ---
 
@@ -133,16 +133,20 @@ No serial input or additional configuration is required — behavior is entirely
 ## 🖼️ Screenshots
 
 ## Circuit Diagram (TinkerCAD)
-(See `circuit_diagram.md` in this folder for the embedded TinkerCAD circuit image, block code screenshot, and handmade schematic.)
+<img width="1536" height="598" alt="Smashing Snicket-Bruticus" src="https://github.com/user-attachments/assets/a6f57719-e70b-4e85-bfd9-365a26c2152a" />
 
-## Output Screenshot
-(Add screenshot here)
+
+
 
 ---
 
 ## 🎥 Demo Video
 
-(Add video/GIF here)
+
+
+https://github.com/user-attachments/assets/71c1d971-fd90-4016-9e24-a131835a2a32
+
+
 
 ---
 
