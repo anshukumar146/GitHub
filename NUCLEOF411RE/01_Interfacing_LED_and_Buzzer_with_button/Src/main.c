@@ -30,7 +30,7 @@ int main(void)
 	volatile uint32_t *GPIOC_IDR = (uint32_t*) (0x40020800 +  0x10);   //input
 	volatile uint32_t *AHB1_RCC_GPIOCEN = (uint32_t*) (0x40023800 + 0x30);  //(1<<2);
 
-	*AHB1_RCC_GPIOCEN = (1<<2); // ENABLE GPIOC
+	*AHB1_RCC_GPIOCEN |= (1<<2); // ENABLE GPIOC
 
 	*GPIOC_MODER &= ~(3 << 0);
 	*GPIOC_MODER |= (1<<2); // set 01: General purpose output mode
