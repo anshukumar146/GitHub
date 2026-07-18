@@ -164,16 +164,14 @@ No serial output, UI, or additional configuration is required — all behavior i
 
 ---
 
-## 🖼️ Screenshots
-
-## Output Screenshot
-(Add screenshot here)
-
----
 
 ## 🎥 Demo Video
 
-(Add video/GIF here)
+
+
+https://github.com/user-attachments/assets/99a4e906-a114-4928-ab05-1190e999df30
+
+
 
 ---
 
