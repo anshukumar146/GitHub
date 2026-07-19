@@ -58,7 +58,7 @@ While the programs themselves are educational, the concepts they teach (bit mani
 ```
 01_Basic_c_programs/
 │
-├── 00_README.md                                  # Original folder-level notes
+├── README.md                                  # Original folder-level notes
 ├── 01_hello_world.c                              # Print "Hello, World!"
 ├── 02_swap_numbers_without_third_variable.c      # Swap using arithmetic
 ├── 03_swap_numbers_with_third_variable.c         # Swap using a temp variable
@@ -180,18 +180,7 @@ Perimeter = 20.00
 
 ---
 
-## 🖼️ Screenshots
 
-## Output Screenshot
-(Add screenshot here)
-
----
-
-## 🎥 Demo Video
-
-(Add video/GIF here)
-
----
 
 ## 📊 Results
 
