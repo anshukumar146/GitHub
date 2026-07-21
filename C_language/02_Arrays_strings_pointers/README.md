@@ -200,12 +200,7 @@ $$$$$###$
 
 ---
 
-## 🖼️ Screenshots
 
-## Output Screenshot
-(Add screenshot here)
-
----
 
 ## 🎥 Demo Video
 
