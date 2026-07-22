@@ -58,7 +58,7 @@ These patterns form the backbone of real systems programming: matrix operations 
 ```
 02_Arrays_strings_pointers/
 │
-├── 00_README.md                                                # Original folder-level notes
+├── README.md                                                # Original folder-level notes
 │
 ├── 📊 Arrays (1D & 2D)
 │   ├── 01_simple_array_sum.c                                   # Element-wise sum of two 1D arrays
