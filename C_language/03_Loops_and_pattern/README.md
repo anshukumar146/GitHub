@@ -166,12 +166,7 @@ Enter number of rows: 4
 
 ---
 
-## 🖼️ Screenshots
 
-## Output Screenshot
-(Add screenshot here)
-
----
 
 ## 🎥 Demo Video
 
