@@ -168,12 +168,6 @@ Enter number of rows: 4
 
 
 
-## 🎥 Demo Video
-
-(Add video/GIF here)
-
----
-
 ## 📊 Results
 
 Each program produces direct, predictable console output based on the entered number:
