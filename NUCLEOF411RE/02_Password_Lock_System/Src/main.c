@@ -58,7 +58,7 @@ void delay2(void)
 Initialization Configure:
 PC0, PC1, PC2 as input with internal pull-up
 PC3, PC4 as output
-PA2 as output
+PA6 as output
 */
 void GPIO_Init(void)
 {
