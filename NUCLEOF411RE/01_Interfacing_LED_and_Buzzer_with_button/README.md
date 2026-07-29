@@ -162,8 +162,18 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 
 No serial output, UI, or additional configuration is required — all behavior is driven by GPIO state.
 
+
 ---
 
+## 🖼️ Schematic diagram
+</h1>R2 is an external pull-up holding PC0 HIGH when SW1 is open. It's only needed because PC0's internal pull-up isn't enabled in firmware — configure it via GPIOC_PUPDR, and R2 can be removed. </h1>
+
+<img width="900" height="500" alt="Screenshot 2026-07-29 200917" src="https://github.com/user-attachments/assets/5bc77384-353a-4625-ae6d-f15953a0375a" />
+
+
+
+
+---
 
 ## 🎥 Demo Video
 
