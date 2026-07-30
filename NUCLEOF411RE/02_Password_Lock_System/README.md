@@ -268,7 +268,7 @@ This project is licensed under the **MIT License**. Note that `syscalls.c`, `sys
 ```
 MIT License
 
-Copyright (c) 2025 Anshu Kumar
+Copyright (c) 2026 Anshu Kumar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
