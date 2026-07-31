@@ -68,7 +68,7 @@ Nested-loop thinking directly maps to real tasks like rendering grids/UI layouts
 │   ├── 05_reverse_right_angle_triangle.c # Inverted right-angled triangle pattern
 │   └── 06_pyramid.c                      # Centered pyramid pattern
 │
-└── 07_Armstrong.c                        # See note in "Code Explanation" below
+└── 07_Armstrong_number.c                 # Checks whether a number is an Armstrong number
 ```
 
 ---
@@ -99,7 +99,7 @@ Every program follows the same simple loop-driven flow:
 | `04_star_right_triangle.c` | Nested `for` loop | Outer loop `i` controls the row number; inner loop `j` runs from `1` to `i`, printing one more star each row to form a right-angled triangle. |
 | `05_reverse_right_angle_triangle.c` | Nested `for` loop (descending) | Outer loop controls the row; inner loop counts **down** from `a` to `i`, printing fewer stars as rows progress — forming an inverted triangle. |
 | `06_pyramid.c` | Nested loops with spacing | Uses one inner loop for leading spaces and a second inner loop for `(2*i - 1)` stars per row, producing a centered pyramid. |
-| `07_Armstrong.c` | ⚠️ Mislabeled file | The filename and folder README describe this as an **Armstrong number checker**, but the current source code is actually a duplicate of the right-angled star triangle pattern (identical to `04_star_right_triangle.c`). This appears to be a copy-paste placeholder that hasn't been replaced with the real Armstrong number logic yet. |
+| `07_Armstrong_number.c` | Digit extraction + custom power function | Counts the digits in the input number, then extracts each digit and raises it to the power of the digit count using a hand-written `power()` function (no `math.h`), summing the results and comparing the sum to the original number to decide if it's an Armstrong number. |
 
 ---
 
@@ -174,13 +174,12 @@ Each program produces direct, predictable console output based on the entered nu
 
 - Numeric programs print a multiplication table, a sequence of natural numbers, or their sum.
 - Pattern programs print a star shape sized according to the entered row count.
-- `07_Armstrong.c` currently prints a right-angled star triangle rather than an Armstrong number result (see note above).
+- `07_Armstrong_number.c` prints whether the entered number is or isn't an Armstrong number.
 
 ---
 
 ## 🚀 Future Improvements
 
-- Implement the actual **Armstrong number check** in `07_Armstrong.c` (extract each digit, cube it, sum, and compare to the original number)
 - Add input validation for negative or zero row counts
 - Extend pattern programs with additional shapes (diamond, hollow triangle, number patterns)
 - Refactor repeated pattern-printing logic into reusable functions
@@ -197,7 +196,7 @@ By studying and building this project, you will learn:
 - Using accumulator variables to compute running sums
 - Controlling loop direction (ascending vs. descending) to change pattern shape
 - Combining spacing loops with printing loops to center output (as in the pyramid)
-- Recognizing and fixing mismatched code (as illustrated by the `07_Armstrong.c` file)
+- Writing a custom `power()` function with a loop as a dependency-free alternative to `math.h`'s `pow()`
 
 ---
 
