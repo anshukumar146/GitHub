@@ -201,11 +201,6 @@ $$$$$###$
 ---
 
 
-
-## 🎥 Demo Video
-
-(Add video/GIF here)
-
 ---
 
 ## 📊 Results
