@@ -7,7 +7,7 @@ int main()
     int i , j , a ;
 
 printf ("Enter the number of rows : ");
-scanf("%d ",&a);
+scanf("%d",&a);
 
 for(i = 1; i <= a; i++)          // outer loop for rows.
 {
