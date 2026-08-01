@@ -105,6 +105,28 @@ This is a simplified model of real keypad/PIN-entry access systems used in door 
 
 ---
 
+
+## 🖼️  Firmware Architecture Flowchart
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Initialize GPIO]
+    B --> C[Read Button]
+    C --> D[Store Input]
+    D --> E{4 Digits?}
+
+    E -- No --> C
+    E -- Yes --> F{Correct Password?}
+
+    F -- Yes --> G[Green LED + Buzzer]
+    F -- No --> H[Red LED + 3 Beeps]
+
+    G --> I[Reset]
+    H --> I
+    I --> C
+```
+
+
 ## 🔍 Code Explanation
 
 **`Src/main.c`**
@@ -195,21 +217,26 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 
 ---
 
-## 🖼️  Screenshots
+## 🖼️  Hardware Schematic
 
-<img width="600" height="800" alt="Hardware_connection" src="https://github.com/user-attachments/assets/99395a87-bd0c-40a9-826c-6946b269a011" />
-
-
----
-
-
-## 🖼️  schematic diagram
-R3 , R4 , R5 are  external pull-ups holding PC0 , PC1 and PC2 HIGH when SW1 , SW2 and SW3 are open. It's only needed because  PC0 , PC1 and PC2 internal pull-up isn't enabled in firmware — configure it via GPIOC_PUPDR, and R3 , R4 , R5 can be removed.
 
 <img width="1078" height="538" alt="image" src="https://github.com/user-attachments/assets/8a07a4f0-7816-49e6-a858-d8581ef6bf56" />
 
+Note: R3, R4, and R5 provide external pull-ups for PC0, PC1, and PC2. In the current firmware, the STM32's internal pull-ups are also enabled via GPIOC_PUPDR, so these external resistors are optional and can be removed. They are included here to illustrate an alternative hardware pull-up implementation and to ensure the circuit would still operate even if the internal pull-ups were not configured.
 
 ---
+
+## 🖼️  Screenshots
+
+<img width="600" height="800" alt="Hardware Schematic" src="https://github.com/user-attachments/assets/99395a87-bd0c-40a9-826c-6946b269a011" />
+
+
+---
+
+
+
+
+
 
 ## 🎥 Demo Video
 
