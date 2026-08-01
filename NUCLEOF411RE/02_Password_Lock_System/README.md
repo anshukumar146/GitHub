@@ -195,16 +195,29 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️  Screenshots
 
-## Output Screenshot
-(Add screenshot here)
+<img width="600" height="800" alt="Hardware_connection" src="https://github.com/user-attachments/assets/99395a87-bd0c-40a9-826c-6946b269a011" />
+
+
+---
+
+
+## 🖼️  schematic diagram
+R3 , R4 , R5 are  external pull-ups holding PC0 , PC1 and PC2 HIGH when SW1 , SW2 and SW3 are open. It's only needed because  PC0 , PC1 and PC2 internal pull-up isn't enabled in firmware — configure it via GPIOC_PUPDR, and R3 , R4 , R5 can be removed.
+
+<img width="1078" height="538" alt="image" src="https://github.com/user-attachments/assets/8a07a4f0-7816-49e6-a858-d8581ef6bf56" />
+
 
 ---
 
 ## 🎥 Demo Video
 
-(Add video/GIF here)
+
+
+https://github.com/user-attachments/assets/4da4d190-00d2-4a72-be80-fbe68845e56f
+
+
 
 ---
 
