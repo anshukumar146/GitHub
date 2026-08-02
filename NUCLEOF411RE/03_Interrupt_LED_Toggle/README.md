@@ -105,6 +105,22 @@ Interrupt-driven GPIO is the standard approach in real embedded systems — used
 
 ---
 
+```mermaid
+flowchart LR
+    A[System Start] --> B[GPIO Init]
+    B --> C[EXTI Init]
+    C --> D[NVIC Enable]
+    D --> E[CPU Waiting]
+
+    E -->|Button Press| F[EXTI0]
+    F --> G[NVIC]
+    G --> H[EXTI0 IRQHandler]
+    H --> I[Clear Pending Flag]
+    I --> J[Toggle LED]
+    J --> E
+```
+
+
 ## 🔍 Code Explanation
 
 **`Src/main.c`**
@@ -240,18 +256,34 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 - **No polling delay** — the response happens as soon as the interrupt fires, rather than waiting for the next loop iteration as in a polling design.
 - Because there's no debounce logic, be aware that a single press may occasionally cause more than one toggle if contact bounce produces multiple falling edges (see the note above).
 
+
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Schematic diagram
 
-## Output Screenshot
-(Add screenshot here)
+<img width="737" height="379" alt="image" src="https://github.com/user-attachments/assets/a501b51c-c2a8-41a1-848f-8cfbed0dcd63" />
+
+Note: R2 provide external pull-ups for PC0. In the current firmware, the STM32's internal pull-ups are also enabled via GPIOC_PUPDR, so these external resistors are optional and can be removed. They are included here to illustrate an alternative hardware pull-up implementation and to ensure the circuit would still operate even if the internal pull-ups were not configured.
+
+---
+
+
+---
+
+## 🖼️ Hardware connection
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/22a73a0c-4d99-46a4-a9b4-3889cdb88c72" />
+
 
 ---
 
 ## 🎥 Demo Video
 
-(Add video/GIF here)
+
+
+https://github.com/user-attachments/assets/ef4526c1-a4a3-414a-add7-94d8552f13ce
+
+
 
 ---
 
