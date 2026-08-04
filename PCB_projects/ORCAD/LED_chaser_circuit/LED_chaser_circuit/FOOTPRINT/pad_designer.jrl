@@ -1,0 +1,5 @@
+\t (00:00:00) pad_designer 15.7 p007 (v15-7-42E) i86
+\t (00:00:00) 
+
+\i (00:00:08) setwindow form.padedit
+\i (00:00:08) pse_exit

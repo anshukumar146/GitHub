@@ -1,0 +1,86 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  board1.brd                                                                  |
+|                                                    Thu Mar 19 20:56:57 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP NP_WCAP_ATG5_5X11DXL_C2
+ CAP NP_WCAP_ATG5_5X11DXL_C3
+ CAP NP_WCAP_ATG5_5X11DXL_C4
+ CAP NP_WCAP_ATG5_5X11DXL_C5
+ CAP NP_WCAP_ATG5_5X11DXL_CAP NP
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  board1.brd                                                                  |
+|                                                    Thu Mar 19 20:56:57 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 10UF1               CAP NP_WCAP_ATG5_5X11DXL_CAP NP                 CAP NP_CAP_DISK_2P_252_CAP NP
+ 33PF1               CAP NP_WCAP_ATG5_5X11DXL_C3                 CAP NP_CAP_DISK_2P_252_C3
+ 33PF2               CAP NP_WCAP_ATG5_5X11DXL_C4                 CAP NP_CAP_DISK_2P_252_C4
+ 150PF1              CAP NP_WCAP_ATG5_5X11DXL_C2                 CAP NP_CAP_DISK_2P_252_C2
+ 150PF2              CAP NP_WCAP_ATG5_5X11DXL_C5                 CAP NP_CAP_DISK_2P_252_C5
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  board1.brd                                                                  |
+|                                                    Thu Mar 19 20:56:57 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 10UF1.2                        PRIM_FILE      .\pstchip.dat
+ 10UF1.2                        SCH_BBOX       (160,250,180,260)
+ 10UF1.2                        SCH_MIRROR     (0)
+ 10UF1.2                        SCH_ORIENT     (180)
+ 10UF1.2                        XY             (160,250)
+ 33PF1.2                        PRIM_FILE      .\pstchip.dat
+ 33PF1.2                        SCH_BBOX       (220,190,230,210)
+ 33PF1.2                        SCH_MIRROR     (0)
+ 33PF1.2                        SCH_ORIENT     (90)
+ 33PF1.2                        XY             (220,190)
+ 33PF2.2                        PRIM_FILE      .\pstchip.dat
+ 33PF2.2                        SCH_BBOX       (220,220,230,240)
+ 33PF2.2                        SCH_MIRROR     (0)
+ 33PF2.2                        SCH_ORIENT     (90)
+ 33PF2.2                        XY             (220,220)
+ 150PF1.2                       PRIM_FILE      .\pstchip.dat
+ 150PF1.2                       SCH_BBOX       (50,340,70,350)
+ 150PF1.2                       SCH_MIRROR     (0)
+ 150PF1.2                       SCH_ORIENT     (180)
+ 150PF1.2                       XY             (50,340)
+ 150PF2.2                       PRIM_FILE      .\pstchip.dat
+ 150PF2.2                       SCH_BBOX       (50,620,70,630)
+ 150PF2.2                       SCH_MIRROR     (0)
+ 150PF2.2                       SCH_ORIENT     (0)
+ 150PF2.2                       XY             (50,620)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  board1.brd                                                                  |
+|                                                    Thu Mar 19 20:56:57 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       5                                        |
+|       Components changed    :       5                                        |
+|       Slot property added   :      25                                        |
+|                                                                              |
+|   Total ECO changes reported:      35                                        |
+|------------------------------------------------------------------------------|

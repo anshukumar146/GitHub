@@ -1,0 +1,115 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : demo_01.brd                                   )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Sun Mar 15 22:47:52 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:\ORCAD_PROJECTS\PRACTICE\netlist'
+Design Directory:            'D:/ORCAD_PROJECTS/PRACTICE/SCHEMATICS/allegro'
+Old design name:             'D:/ORCAD_PROJECTS/PRACTICE/SCHEMATICS/allegro/demo_01.brd'
+New design name:             'D:/ORCAD_PROJECTS/PRACTICE/SCHEMATICS/allegro/demo_01.brd'
+
+CmdLine: netrev -y 1 -i D:\ORCAD_PROJECTS\PRACTICE\netlist -q netrev_constraint_report.xml D:/ORCAD_PROJECTS/PRACTICE/SCHEMATICS/allegro/#Taaaaah03452.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read D:/ORCAD_PROJECTS/PRACTICE/netlist/pstchip.dat 
+   Finished reading D:/ORCAD_PROJECTS/PRACTICE/netlist/pstchip.dat (00:00:00.01)
+Starting to read D:/ORCAD_PROJECTS/PRACTICE/netlist/pstxprt.dat 
+   Finished reading D:/ORCAD_PROJECTS/PRACTICE/netlist/pstxprt.dat (00:00:00.00)
+Starting to read D:/ORCAD_PROJECTS/PRACTICE/netlist/pstxnet.dat 
+   Finished reading D:/ORCAD_PROJECTS/PRACTICE/netlist/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'TRIM_3306K-1-103' used by RefDes R2 for device '3306K-1-103_TRIM_3306K-1-103_10K' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'DIP794W45P254L1969H508Q16' used by RefDes U1 for device 'CD4017BE_7_DIP794W45P254L1969H508Q16_CD4017BE' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or u
+
+    Alternatively, the JEDEC_TYPE is not defined for the device in the pstchip.dat.
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'PS_R197_60_D250' used by RefDes U2 for device 'NE555_4_PS_R197_60_D250_NE555' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/orcadx_25.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_25.1/share/local/pcb/symbols 
+           c:/cadence/orcadx_25.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_25.1/share/pcb/allegrolib/symbols 
+           D:/OrCAD_Projects/Day-07/project/Footprint 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_25.1/share/local/pcb/padstacks 
+           c:/cadence/orcadx_25.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_25.1/share/pcb/allegrolib/symbols 
+           D:/OrCAD_Projects/Day-07/project/Footprint 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 15 22:47:52 2026
+   DESIGN NAME : 'DEMO_01'
+   PACKAGING ON Feb  5 2026 13:43:38
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  3 warnings detected
+
+cpu time      0:00:20
+elapsed time  0:00:00
+

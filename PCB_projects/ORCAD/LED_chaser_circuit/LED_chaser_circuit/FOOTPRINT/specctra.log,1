@@ -1,0 +1,701 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Mon Apr 11 00:53:41 2022
+# 
+# Allegro PCB Router v17-2-50 made 2016/03/28 at 15:56:36
+# Running on: desktop-3mrqd1f, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/PCB DESIGN INTENSIVE/demo/Footprint/specctra.did
+# Current time = Mon Apr 11 00:53:42 2022
+# PCB C:/PCB DESIGN INTENSIVE/demo/Footprint
+# Master Unit set up as: MM 100000
+# PCB Limits xlo= -5.0000 ylo= -3.7500 xhi=105.0000 yhi= 78.7500
+# Total 21 Images Consolidated.
+# Via 8051VIA z=1, 2 xlo= -0.2500 ylo= -0.2500 xhi=  0.2500 yhi=  0.2500
+# 
+#    VIA     TOP   BOTTOM 
+# 
+#    TOP  -------  8051VIA
+# BOTTOM  8051VIA  -------
+# 
+# Wires Processed 75, Vias Processed 0
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 34, Images Processed 47, Padstacks Processed 23
+# Nets Processed 48, Net Terminals 170
+# PCB Area= 7500.000  EIC=13  Area/EIC=576.923  SMDs=22
+# Total Pin Count: 189
+# Signal Connections Created 55
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 48 Connections 117 Unroutes 55
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 6, at vias 0 Total Vias 0
+# Percent Connected   52.99
+# Manhattan Length 1669.2200 Horizontal 1117.1675 Vertical 552.0525
+# Routed Length 715.0917 Horizontal 582.8140 Vertical 207.0760
+# Ratio Actual / Manhattan   0.4284
+# Unconnected Length 917.5540 Horizontal 470.1340 Vertical 447.4200
+# Total Conflicts: 6 (Cross: 0, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/PANTECH/AppData/Local/Temp/#Taaaaak15256.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Current time = Mon Apr 11 00:54:09 2022
+# 
+#    VIA     TOP   BOTTOM 
+# 
+#    TOP  -------  8051VIA
+# BOTTOM  8051VIA  -------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 48 Connections 117 Unroutes 55
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 6, at vias 0 Total Vias 0
+# Percent Connected   52.99
+# Manhattan Length 1669.2200 Horizontal 1117.1675 Vertical 552.0525
+# Routed Length 715.0917 Horizontal 582.8140 Vertical 207.0760
+# Ratio Actual / Manhattan   0.4284
+# Unconnected Length 917.5540 Horizontal 470.1340 Vertical 447.4200
+# Start Route Pass 1 of 25
+# Routing 117 wires.
+# Total Conflicts: 21 (Cross: 20, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 114 Successes 113 Failures 1 Vias 15
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# Start Route Pass 2 of 25
+# Routing 147 wires.
+# Total Conflicts: 9 (Cross: 9, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 130 Successes 129 Failures 1 Vias 14
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Conflict Reduction  0.5714
+# End Pass 2 of 25
+# 38 bend points have been removed.
+# 0 bend points have been removed.
+# 7 bend points have been removed.
+# Start Route Pass 3 of 25
+# Routing 15 wires.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 15 Successes 15 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 25
+# Start Route Pass 4 of 25
+# Routing 4 wires.
+# 28 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 25
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    20|     1|   1|    0|   15|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     9|     0|   1|    0|   14|    0|   0| 57|  0:00:01|  0:00:01|
+# Route    |  3|     1|     0|   0|    0|   22|    0|   0| 88|  0:00:00|  0:00:01|
+# Route    |  4|     0|     0|   0|    0|   22|    0|   0|100|  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 48 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 38, at vias 10 Total Vias 22
+# Percent Connected  100.00
+# Manhattan Length 1674.7385 Horizontal 1116.2237 Vertical 558.5148
+# Routed Length 1720.6275 Horizontal 1071.2361 Vertical 649.5789
+# Ratio Actual / Manhattan   1.0274
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Mon Apr 11 00:54:09 2022
+# 
+#    VIA     TOP   BOTTOM 
+# 
+#    TOP  -------  8051VIA
+# BOTTOM  8051VIA  -------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 48 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 38, at vias 10 Total Vias 22
+# Percent Connected  100.00
+# Manhattan Length 1674.7385 Horizontal 1116.2237 Vertical 558.5148
+# Routed Length 1720.6275 Horizontal 1071.2361 Vertical 649.5789
+# Ratio Actual / Manhattan   1.0274
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 161 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 144 Successes 144 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 172 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 149 Successes 149 Failures 0 Vias 13
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    20|     1|   1|    0|   15|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     9|     0|   1|    0|   14|    0|   0| 57|  0:00:01|  0:00:01|
+# Route    |  3|     1|     0|   0|    0|   22|    0|   0| 88|  0:00:00|  0:00:01|
+# Route    |  4|     0|     0|   0|    0|   22|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  5|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  6|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 48 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 6 Total Vias 13
+# Percent Connected  100.00
+# Manhattan Length 1645.0123 Horizontal 1100.8096 Vertical 544.2027
+# Routed Length 1688.5308 Horizontal 1058.5566 Vertical 629.9742
+# Ratio Actual / Manhattan   1.0265
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/PANTECH/AppData/Local/Temp/#Taaaaal15256.tmp
+# <<WARNING:>> Non positive shape width (0) near the point 835000/6260000.
+# <<WARNING:>> Non positive shape width (0) near the point 935000/6260000.
+# <<WARNING:>> Non positive shape width (0) near the point 1225000/5830000.
+# <<WARNING:>> Non positive shape width (0) near the point 1225000/5730000.
+# <<WARNING:>> Non positive shape width (0) near the point 1465000/6260000.
+# <<WARNING:>> Non positive shape width (0) near the point 1565000/6260000.
+# Routing Written to File C:/Users/PANTECH/AppData/Local/Temp/#Taaaaal15256.tmp
+# Loading Do File C:/Users/PANTECH/AppData/Local/Temp/#Taaaaan15256.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net P3_2 Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Mon Apr 11 00:54:56 2022
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 48 Connections 117 Unroutes 3
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 6 Total Vias 12
+# Percent Connected   97.44
+# Manhattan Length 1645.0123 Horizontal 1100.8096 Vertical 544.2027
+# Routed Length 1604.7698 Horizontal 1003.1856 Vertical 601.5842
+# Ratio Actual / Manhattan   0.9755
+# Unconnected Length  83.7610 Horizontal  55.3710 Vertical  28.3900
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Mon Apr 11 00:54:56 2022
+# Nets Processed 49, Net Terminals 248
+# Signal Connections Created 3
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 3
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 6 Total Vias 12
+# Percent Connected   97.44
+# Manhattan Length 1645.9517 Horizontal 1101.4271 Vertical 544.5247
+# Routed Length 1604.7698 Horizontal 1003.1856 Vertical 601.5842
+# Ratio Actual / Manhattan   0.9750
+# Unconnected Length  83.7610 Horizontal  55.3710 Vertical  28.3900
+# Loading Do File C:/Users/PANTECH/AppData/Local/Temp/#Taaaaao15256.tmp ...
+# All Components Selected.
+# All Nets Selected.
+# Net GND Unselected.
+# Net ALE Unselected.
+# Net N00898 Unselected.
+# Net EA Unselected.
+# Net VCC Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Current time = Mon Apr 11 00:55:48 2022
+# 
+#    VIA     TOP   BOTTOM 
+# 
+#    TOP  -------  8051VIA
+# BOTTOM  8051VIA  -------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 3
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 6 Total Vias 12
+# Percent Connected   97.44
+# Manhattan Length 1645.9517 Horizontal 1101.4271 Vertical 544.5247
+# Routed Length 1604.7698 Horizontal 1003.1856 Vertical 601.5842
+# Ratio Actual / Manhattan   0.9750
+# Unconnected Length  83.7610 Horizontal  55.3710 Vertical  28.3900
+# Start Route Pass 1 of 25
+# Routing 72 wires.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 66 Successes 66 Failures 0 Vias 16
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# 27 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Start Route Pass 2 of 25
+# Routing 1 wires.
+# 23 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 17
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 25
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    20|     1|   1|    0|   15|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     9|     0|   1|    0|   14|    0|   0| 57|  0:00:01|  0:00:01|
+# Route    |  3|     1|     0|   0|    0|   22|    0|   0| 88|  0:00:00|  0:00:01|
+# Route    |  4|     0|     0|   0|    0|   22|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  5|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  6|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Delete   |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Read Rte |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Route    |  7|     1|     0|   0|    0|   16|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  8|     0|     0|   0|    0|   17|    0|   0|100|  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 37, at vias 8 Total Vias 17
+# Percent Connected  100.00
+# Manhattan Length 1646.6202 Horizontal 1101.7058 Vertical 544.9145
+# Routed Length 1709.3625 Horizontal 1071.1733 Vertical 638.1892
+# Ratio Actual / Manhattan   1.0381
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Mon Apr 11 00:55:48 2022
+# 
+#    VIA     TOP   BOTTOM 
+# 
+#    TOP  -------  8051VIA
+# BOTTOM  8051VIA  -------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 37, at vias 8 Total Vias 17
+# Percent Connected  100.00
+# Manhattan Length 1646.6202 Horizontal 1101.7058 Vertical 544.9145
+# Routed Length 1709.3625 Horizontal 1071.1733 Vertical 638.1892
+# Ratio Actual / Manhattan   1.0381
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 73 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 66 Successes 66 Failures 0 Vias 13
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 76 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 69 Successes 69 Failures 0 Vias 13
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    20|     1|   1|    0|   15|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     9|     0|   1|    0|   14|    0|   0| 57|  0:00:01|  0:00:01|
+# Route    |  3|     1|     0|   0|    0|   22|    0|   0| 88|  0:00:00|  0:00:01|
+# Route    |  4|     0|     0|   0|    0|   22|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  5|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  6|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Delete   |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Read Rte |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Route    |  7|     1|     0|   0|    0|   16|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  8|     0|     0|   0|    0|   17|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  9|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 10|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 40, at vias 6 Total Vias 13
+# Percent Connected  100.00
+# Manhattan Length 1648.1557 Horizontal 1102.5835 Vertical 545.5723
+# Routed Length 1690.5943 Horizontal 1060.5186 Vertical 630.0757
+# Ratio Actual / Manhattan   1.0257
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/PANTECH/AppData/Local/Temp/#Taaaaap15256.tmp
+# Routing Written to File C:/Users/PANTECH/AppData/Local/Temp/#Taaaaap15256.tmp
+# Loading Do File C:/Users/PANTECH/AppData/Local/Temp/#Taaaaaq15256.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Current time = Mon Apr 11 00:56:31 2022
+# 
+#    VIA     TOP   BOTTOM 
+# 
+#    TOP  -------  8051VIA
+# BOTTOM  8051VIA  -------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 40, at vias 6 Total Vias 13
+# Percent Connected  100.00
+# Manhattan Length 1648.1557 Horizontal 1102.5835 Vertical 545.5723
+# Routed Length 1690.5943 Horizontal 1060.5186 Vertical 630.0757
+# Ratio Actual / Manhattan   1.0257
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 25
+# Routing 158 wires.
+# 36 bend points have been removed.
+# 0 bend points have been removed.
+# 7 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 149 Successes 149 Failures 0 Vias 27
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    20|     1|   1|    0|   15|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     9|     0|   1|    0|   14|    0|   0| 57|  0:00:01|  0:00:01|
+# Route    |  3|     1|     0|   0|    0|   22|    0|   0| 88|  0:00:00|  0:00:01|
+# Route    |  4|     0|     0|   0|    0|   22|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  5|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  6|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Delete   |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Read Rte |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Route    |  7|     1|     0|   0|    0|   16|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  8|     0|     0|   0|    0|   17|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  9|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 10|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Route    | 11|     0|     0|   0|    0|   27|    0|   0|  0|  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 11 Total Vias 23
+# Percent Connected  100.00
+# Manhattan Length 1643.6096 Horizontal 1101.1457 Vertical 542.4639
+# Routed Length 1687.3881 Horizontal 1051.0491 Vertical 636.3390
+# Ratio Actual / Manhattan   1.0266
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Current time = Mon Apr 11 00:56:31 2022
+# 
+#    VIA     TOP   BOTTOM 
+# 
+#    TOP  -------  8051VIA
+# BOTTOM  8051VIA  -------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 39, at vias 11 Total Vias 23
+# Percent Connected  100.00
+# Manhattan Length 1643.6096 Horizontal 1101.1457 Vertical 542.4639
+# Routed Length 1687.3881 Horizontal 1051.0491 Vertical 636.3390
+# Ratio Actual / Manhattan   1.0266
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 162 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 148 Successes 148 Failures 0 Vias 15
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 174 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 151 Successes 151 Failures 0 Vias 13
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1270, Clearance= 0.1270
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    20|     1|   1|    0|   15|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     9|     0|   1|    0|   14|    0|   0| 57|  0:00:01|  0:00:01|
+# Route    |  3|     1|     0|   0|    0|   22|    0|   0| 88|  0:00:00|  0:00:01|
+# Route    |  4|     0|     0|   0|    0|   22|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  5|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  6|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Delete   |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Read Rte |  6|     0|     0|   0|    3|   12|    0|   0|   |  0:00:00|  0:00:01|
+# Route    |  7|     1|     0|   0|    0|   16|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  8|     0|     0|   0|    0|   17|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  9|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 10|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Route    | 11|     0|     0|   0|    0|   27|    0|   0|  0|  0:00:00|  0:00:01|
+# Clean    | 12|     0|     0|   0|    0|   15|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 13|     0|     0|   0|    0|   13|    0|   0|   |  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/PCB DESIGN INTENSIVE/demo/Footprint\8051FINAL.dsn
+# Nets 49 Connections 117 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 41, at vias 7 Total Vias 13
+# Percent Connected  100.00
+# Manhattan Length 1641.1022 Horizontal 1099.7548 Vertical 541.3474
+# Routed Length 1689.9070 Horizontal 1050.3105 Vertical 639.5965
+# Ratio Actual / Manhattan   1.0297
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/PANTECH/AppData/Local/Temp/#Taaaaar15256.tmp
+# <<WARNING:>> Non positive shape width (0) near the point 835000/6260000.
+# <<WARNING:>> Non positive shape width (0) near the point 935000/6260000.
+# <<WARNING:>> Non positive shape width (0) near the point 1225000/5830000.
+# <<WARNING:>> Non positive shape width (0) near the point 1225000/5730000.
+# <<WARNING:>> Number of warnings on non positive widths exceeded limit (10). No more messages will be printed.
+# Routing Written to File C:/Users/PANTECH/AppData/Local/Temp/#Taaaaar15256.tmp
+quit

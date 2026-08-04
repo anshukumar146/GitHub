@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : cap-th-100uf_25V.dra                          )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Mar 11 23:13:31 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/Cadence/Bal new
+    Name      = cap-th-100uf_25v.psm
+    User      = balraj
+    Machine   = BALRAJ-VAIO
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,94 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : board.brd                                     )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Mon Mar 16 00:59:23 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:/OrCAD_Projects/practice/NETLIST'
+Design Directory:            'D:/OrCAD_Projects/practice/board1'
+Old design name:             'board.brd'
+New design name:             'board.brd'
+
+CmdLine: netrev -$ -i D:/OrCAD_Projects/practice/NETLIST -y 1 -h -q netrev_constraint_report.xml D:/OrCAD_Projects/practice/board1/#Taaaaar28356.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read D:/OrCAD_Projects/practice/NETLIST/pstchip.dat 
+   Finished reading D:/OrCAD_Projects/practice/NETLIST/pstchip.dat (00:00:00.01)
+Starting to read D:/OrCAD_Projects/practice/NETLIST/pstxprt.dat 
+   Finished reading D:/OrCAD_Projects/practice/NETLIST/pstxprt.dat (00:00:00.00)
+Starting to read D:/OrCAD_Projects/practice/NETLIST/pstxnet.dat 
+   Finished reading D:/OrCAD_Projects/practice/NETLIST/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/orcadx_25.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_25.1/share/local/pcb/symbols 
+           c:/cadence/orcadx_25.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_25.1/share/pcb/allegrolib/symbols 
+           D:/OrCAD_Projects/Day-07/project/Footprint 
+           D:/OrCAD_Projects/practice/FOOTPRINT 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_25.1/share/local/pcb/padstacks 
+           c:/cadence/orcadx_25.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_25.1/share/pcb/allegrolib/symbols 
+           D:/OrCAD_Projects/Day-07/project/Footprint 
+           D:/OrCAD_Projects/practice/FOOTPRINT 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 16 0:59:23 2026
+   DESIGN NAME : 'DEMO_01'
+   PACKAGING ON Feb  5 2026 13:43:38
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:32
+elapsed time  0:00:00
+

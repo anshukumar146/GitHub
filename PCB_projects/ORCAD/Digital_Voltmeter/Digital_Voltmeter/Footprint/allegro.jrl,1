@@ -1,0 +1,27 @@
+\t (00:00:04) allegro 25.1 S020 (4396590) [2/5/2026] Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Mar 19 20:01:33 2026
+\t (00:00:04)         Host=LAPTOP-HTNQOTB1 User=anshu Pid=20668 CPUs=12
+\t (00:00:04) CmdLine= c:\cadence\orcadx_25.1\tools\bin\allegro.exe D:\OrCAD_Projects\Digital_Voltmeter\Footprint\MODULE_LCD-16X2.dra
+\t (00:00:04) 
+\t (00:00:04) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "MODULE_LCD-16X2"
+\d (00:00:07) Design opened: D:/OrCAD_Projects/Digital_Voltmeter/Footprint/MODULE_LCD-16X2.dra
+\i (00:00:07) trapsize 26617
+\i (00:00:07) trapsize 27580
+\i (00:00:08) trapsize 26617
+\i (00:00:08) trapsize 20023
+\i (00:00:08) trapsize 25680
+\i (00:00:11) updateport SearchPane
+\i (00:00:11) generaledit 
+\t (00:00:11) [20:01:41.113882] Periodic Lic check successful
+[20:01:41.113889] Feature usage summary:
+
+\i (00:00:13) exit 
+\t (00:00:13) Loading consmgr.cxt 
+\t (00:00:13) Loading acns_formula.cxt 
+\t (00:00:13) Lic Summary:
+[20:01:42.523778] Cdslmd servers:C:\Users\anshu\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[20:01:42.524458] Feature usage summary:
+
+\t (00:00:13)     Journal end - Thu Mar 19 20:01:42 2026
