@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : GCT_DCJ250-10-A_XX-X_REVA.dra                 )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Sun Mar  8 01:54:35 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/OrCAD_Projects/Day-07/project/Footprint
+    Name      = gct_dcj250-10-a_xx-x_reva.psm
+    User      = anshu
+    Machine   = LAPTOP-HTNQOTB1
+
+
+Create symbol started.
+ 
+ WARNING(SPMHA1-301): Create symbol DRC errors exist. 
+
+Create symbol completed.
+

@@ -1,0 +1,42 @@
+\t (00:00:02) allegro 25.1 S020 (4396590) [2/5/2026] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun Mar 15 22:47:46 2026
+\t (00:00:02)         Host=LAPTOP-HTNQOTB1 User=anshu Pid=3452 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\orcadx_25.1\tools\bin\allegro.exe -mpssession anshu -proj D:\ORCAD_PROJECTS\PRACTICE\SCHEMATICS\DEMO_01.opj D:/ORCAD_PROJECTS/PRACTICE/SCHEMATICS/allegro/demo_01.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "demo_01"
+\d (00:00:05) Design opened: D:/ORCAD_PROJECTS/PRACTICE/SCHEMATICS/allegro/demo_01.brd
+\i (00:00:05) trapsize 10479
+\i (00:00:05) trapsize 10858
+\i (00:00:05) trapsize 10479
+\i (00:00:05) trapsize 6858
+\i (00:00:05) trapsize 11888
+\t (00:00:05) > Sending response DoneOpenBoard
+\i (00:00:07) updateport SearchPane
+\t (00:00:07) > DoPullSchematic message received
+\t (00:00:07) > Pulling schematic...
+\t (00:00:07) Starting Cadence Logic Import...
+\w (00:00:08) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:00:08) Opening existing design...
+\i (00:00:08) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:00:08) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\t (00:00:08) Loading consmgr.cxt 
+\t (00:00:08) Loading acns_formula.cxt 
+\i (00:00:08) trapsize 11888
+\t (00:00:08) > Sending response DonePullSchematic
+\t (00:00:08) > Schematic pulled successfully
+\i (00:00:08) generaledit 
+\i (00:00:09) updateport SearchPane
+\i (00:00:32) setwindow text
+\i (00:00:32) close
+\i (00:00:34) setwindow pcb
+\i (00:00:34) exit 
+\e (00:00:34) Do you want to save the changes you made to D:/ORCAD_PROJECTS/PRACTICE/SCHEMATICS/allegro/demo_01.brd?
+\i (00:00:35) fillin yes 
+\t (00:00:35) Lic Summary:
+[22:48:20.226048] Cdslmd servers:C:\Users\anshu\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[22:48:20.226360] Feature usage summary:
+[22:48:20.226361] OrCAD_X_PCB_Professional_Plus  
+[22:48:20.226362] OrCAD_X_Professional_Plus  
+\t (00:00:35)     Journal end - Sun Mar 15 22:48:20 2026

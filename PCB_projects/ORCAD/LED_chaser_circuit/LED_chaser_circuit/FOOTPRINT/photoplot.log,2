@@ -1,0 +1,314 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : 8051FINAL.brd                                 )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sun Apr 10 22:33:56 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/PCB DESIGN INTENSIVE/demo/Footprint/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (19).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.00010                                  DARK 
+  CIRCLE     1.03000                                  DARK 
+  CIRCLE     1.25000                                  DARK 
+  CIRCLE     1.40800                                  DARK 
+  CIRCLE     1.49800                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.86000                                  DARK 
+  CIRCLE     2.00010                                  DARK 
+  CIRCLE     3.31600                                  DARK 
+  SQUARE     1.25000                     0.000 NO     DARK 
+  SQUARE     1.40800                     0.000 NO     DARK 
+  SQUARE     1.49800                     0.000 NO     DARK 
+  SQUARE     1.52400                     0.000 NO     DARK 
+  SQUARE     1.86000                     0.000 NO     DARK 
+  RECTANGLE  0.10000     x 0.10000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.30000      90.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000       0.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.59000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.59000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.20000      90.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < TOPL >
+     TO FILE < C:/PCB DESIGN INTENSIVE/demo/Footprint/TOPL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (19).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+    WARNING: rectangle or unfilled shape composed 0 width line found at (100.0000 0.0000)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.00010                                  DARK 
+  CIRCLE     1.03000                                  DARK 
+  CIRCLE     1.25000                                  DARK 
+  CIRCLE     1.40800                                  DARK 
+  CIRCLE     1.49800                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.86000                                  DARK 
+  CIRCLE     2.00010                                  DARK 
+  CIRCLE     3.31600                                  DARK 
+  SQUARE     1.25000                     0.000 NO     DARK 
+  SQUARE     1.40800                     0.000 NO     DARK 
+  SQUARE     1.49800                     0.000 NO     DARK 
+  SQUARE     1.52400                     0.000 NO     DARK 
+  SQUARE     1.86000                     0.000 NO     DARK 
+  RECTANGLE  0.10000     x 0.10000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.30000      90.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000       0.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.59000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.59000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.20000      90.000 NO     DARK 
+
+     TOPL created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKT >
+     TO FILE < C:/PCB DESIGN INTENSIVE/demo/Footprint/SILKT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: text composed 0 width line found at (4.8436 12.4053)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: 0 width line found at (8.2000 3.5750)
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+
+     SILKT created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERT >
+     TO FILE < C:/PCB DESIGN INTENSIVE/demo/Footprint/SOLDERT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.00010                                  DARK 
+  CIRCLE     1.03000                                  DARK 
+  CIRCLE     1.40800                                  DARK 
+  CIRCLE     1.45000                                  DARK 
+  CIRCLE     1.67640                                  DARK 
+  CIRCLE     1.69800                                  DARK 
+  CIRCLE     2.00010                                  DARK 
+  CIRCLE     2.06000                                  DARK 
+  CIRCLE     3.31600                                  DARK 
+  SQUARE     1.40800                     0.000 NO     DARK 
+  SQUARE     1.45000                     0.000 NO     DARK 
+  SQUARE     1.67640                     0.000 NO     DARK 
+  SQUARE     1.69800                     0.000 NO     DARK 
+  SQUARE     2.06000                     0.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.70000      90.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.50000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000       0.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000      90.000 NO     DARK 
+  RECTANGLE  1.70000     x 1.79000       0.000 NO     DARK 
+  RECTANGLE  1.70000     x 1.79000      90.000 NO     DARK 
+  RECTANGLE  2.20000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 1.40000      90.000 NO     DARK 
+
+     SOLDERT created.
+
+
+================================================================
+     PROCESSING FILM < PASTET >
+     TO FILE < C:/PCB DESIGN INTENSIVE/demo/Footprint/PASTET.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                2.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     2.00000                                  DARK 
+  RECTANGLE  0.40000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.30000      90.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000       0.000 NO     DARK 
+  RECTANGLE  1.18000     x 1.74000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.59000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.59000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.20000      90.000 NO     DARK 
+
+     PASTET created.
+
+
+================================================================
+     PROCESSING FILM < SST >
+     TO FILE < C:/PCB DESIGN INTENSIVE/demo/Footprint/SST.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+
+     SST created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        TOPL created with warnings
+        SILKT created with warnings
+        SOLDERT created.
+        PASTET created.
+        SST created.
+
+ ARTWORK had warnings

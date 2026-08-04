@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : th_cap10uf.dra                                )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Sun Mar  8 01:59:12 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/OrCAD_Projects/Day-07/project/Footprint
+    Name      = th_cap10uf.psm
+    User      = anshu
+    Machine   = LAPTOP-HTNQOTB1
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

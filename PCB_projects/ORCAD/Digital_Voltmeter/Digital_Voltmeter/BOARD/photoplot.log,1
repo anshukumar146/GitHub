@@ -1,0 +1,173 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : board1.brd                                    )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Fri Mar 20 17:09:45 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < D:/OrCAD_Projects/Digital_Voltmeter/BOARD/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02402                                  DARK 
+  CIRCLE     0.04331                                  DARK 
+  CIRCLE     0.05150                                  DARK 
+  CIRCLE     0.05299                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06598                                  DARK 
+  CIRCLE     0.07402                                  DARK 
+  CIRCLE     0.11024                                  DARK 
+  SQUARE     0.04331                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  SQUARE     0.06598                     0.000 NO     DARK 
+  SQUARE     0.07402                     0.000 NO     DARK 
+  OBLONG     0.06000     x 0.10000       0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < D:/OrCAD_Projects/Digital_Voltmeter/BOARD/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02402                                  DARK 
+  CIRCLE     0.04331                                  DARK 
+  CIRCLE     0.05150                                  DARK 
+  CIRCLE     0.05299                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06598                                  DARK 
+  CIRCLE     0.07402                                  DARK 
+  CIRCLE     0.11024                                  DARK 
+  SQUARE     0.04331                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  SQUARE     0.06598                     0.000 NO     DARK 
+  SQUARE     0.07402                     0.000 NO     DARK 
+  OBLONG     0.06000     x 0.10000       0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SSTOP >
+     TO FILE < D:/OrCAD_Projects/Digital_Voltmeter/BOARD/SSTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (6.460 5.980) in MM
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: 0 width line found at (61.805 40.162) in MM
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00512                                  DARK 
+  CIRCLE     0.00598                                  DARK 
+  CIRCLE     0.00701                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+
+     SSTOP created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        SSTOP created with warnings
+
+ ARTWORK had warnings

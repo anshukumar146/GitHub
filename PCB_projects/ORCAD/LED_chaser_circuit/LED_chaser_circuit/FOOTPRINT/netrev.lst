@@ -1,0 +1,123 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : 8051demoboard.brd                             )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Aug 13 11:40:37 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:/8051 Board Design/demo/Netlist'
+Design Directory:            '.'
+Old design name:             '8051demoboard.brd'
+New design name:             '8051demoboard.brd'
+
+CmdLine: netrev -$ -i C:/8051 Board Design/demo/Netlist -y 1 -q netrev_constraint_report.xml C:/8051 Board Design/demo/Footprint/#Taaaaaf20172.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/8051 Board Design/demo/Netlist/pstchip.dat 
+   Finished reading C:/8051 Board Design/demo/Netlist/pstchip.dat (00:00:00.03)
+Starting to read C:/8051 Board Design/demo/Netlist/pstxprt.dat 
+   Finished reading C:/8051 Board Design/demo/Netlist/pstxprt.dat (00:00:00.00)
+Starting to read C:/8051 Board Design/demo/Netlist/pstxnet.dat 
+   Finished reading C:/8051 Board Design/demo/Netlist/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/PANTECH/OneDrive/Desktop/newdemo/FOOTPRINT/ 
+           D:/PCB DESIGN WORKSHOP/Day 10/Project/Footprints/ 
+           D:/PCB DESIGN WORKSHOP/dAY 11/Project/Footprints 
+           D:/PCB DESIGN WORKSHOP/Day 5/Project/Footprints 
+           C:/pcb design hackathon/Footprint 
+           C:/pcb design hackathon/demo2/LIBRARY 
+           C:/PCB DESIGN WORKSHOP/PCB DESIGN WORKSHOP VERSION 2/dAY 5/Footprints 
+           C:/pcb design hackathon/Session2/Footprints 
+           C:/PCB DESIGN WORKSHOP/PCB DESIGN WORKSHOP VERSION 2/Day 9/Footprints 
+           C:/PCB DESIGN INTENSIVE/demo/esp32 pcb/footprints 
+           C:/pcb design hackathon-3d/Footprints 
+           C:/pcb design hackathon-2/demo2/Footprint 
+           C:/pcbdesigndemo2/DEMO/Footprint 
+           C:/PCB DESIGN WORKSHOP/DEMO/Footprint 
+           C:/pcb design hackathon/pcb/FOOTPRINT 
+           C:/8051 Board Design/PRACTICE/Footprints 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/PANTECH/OneDrive/Desktop/newdemo/FOOTPRINT/ 
+           D:/PCB DESIGN WORKSHOP/Day 10/Project/Footprints/ 
+           D:/PCB DESIGN WORKSHOP/dAY 11/Project/Footprints 
+           D:/PCB DESIGN WORKSHOP/Day 5/Project/Footprints 
+           C:/PCB DESIGN WORKSHOP/PCB DESIGN WORKSHOP VERSION 2/footprint 
+           C:/pcb design hackathon/Footprint 
+           C:/pcb design hackathon/demo2/LIBRARY 
+           C:/PCB DESIGN WORKSHOP/PCB DESIGN WORKSHOP VERSION 2/dAY 5/Footprints 
+           C:/pcb design hackathon/Session2/Footprints 
+           C:/PCB DESIGN WORKSHOP/PCB DESIGN WORKSHOP VERSION 2/Day 9/Footprints 
+           C:/PCB DESIGN INTENSIVE/demo/esp32 pcb/footprints 
+           C:/pcb design hackathon-3d/Footprints 
+           C:/pcb design hackathon-2/demo2/Footprint 
+           C:/pcbdesigndemo2/DEMO/Footprint 
+           C:/PCB DESIGN WORKSHOP/DEMO/Footprint 
+           C:/pcb design hackathon/pcb/FOOTPRINT 
+           C:/8051 Board Design/PRACTICE/Footprints 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Aug 13 11:40:37 2022
+   DESIGN NAME : '8051'
+   PACKAGING ON Mar  2 2016 00:37:24
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:09
+elapsed time  0:00:01
+

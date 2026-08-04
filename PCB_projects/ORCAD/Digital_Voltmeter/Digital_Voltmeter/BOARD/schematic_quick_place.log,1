@@ -1,0 +1,29 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : board1.brd                                    )
+(    Software Version : 25.1S020                                      )
+(    Date/Time        : Thu Mar 19 20:51:32 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Placing page "1"
+	ERROR:   Could not find symbol:  10UF1 / CAP NP_CAP_DISK_2P_252_CAP NP / CAP_DISK_2P_252
+	Placed symbol:  12M1 / CRYSTAL_CRY_25MH_CRYSTAL / CRY_25MH at (96.917 474.755)
+	ERROR:   Could not find symbol:  150PF1 / CAP NP_CAP_DISK_2P_252_C2 / CAP_DISK_2P_252
+	ERROR:   Could not find symbol:  150PF2 / CAP NP_CAP_DISK_2P_252_C5 / CAP_DISK_2P_252
+	ERROR:   Could not find symbol:  33PF1 / CAP NP_CAP_DISK_2P_252_C3 / CAP_DISK_2P_252
+	ERROR:   Could not find symbol:  33PF2 / CAP NP_CAP_DISK_2P_252_C4 / CAP_DISK_2P_252
+	Placed symbol:  DS1 / LM016L_3_MODULE_LCD_16X2_LM016L / MODULE_LCD_16X2 at (178.974 449.998)
+	Placed symbol:  R1 / R_RESISITOR_TH_R / RESISITOR_TH at (48.840 417.158)
+	Placed symbol:  R2 / POT_TRIM_3306K-1-103_10K / TRIM_3306K-1-103 at (232.879 417.158)
+	Placed symbol:  R3 / R_RESISITOR_TH_10K / RESISITOR_TH at (1.860 365.510)
+	Placed symbol:  R4 / R_RESISITOR_TH_10K / RESISITOR_TH at (1.860 352.850)
+	Placed symbol:  R5 / R_RESISITOR_TH_10K / RESISITOR_TH at (25.350 352.850)
+	Placed symbol:  U1 / 8051_1_8051_8051 / 8051 at (120.786 491.260)
+	Placed symbol:  U2 / ADC0804LCN_2_DIP254P762X508-20_ADC0804LCN / DIP254P762X508-20 at (80.048 378.694)
+
+Placed 9 of 14 symbols.
