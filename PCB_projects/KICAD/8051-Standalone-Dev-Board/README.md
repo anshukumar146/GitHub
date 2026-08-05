@@ -14,9 +14,6 @@ A compact, self-contained development board for the 8051 microcontroller family 
 **Purpose**
 This repository contains the full KiCad design (schematic, PCB layout, and fabrication outputs) for a standalone 8051 development board. It's built around the classic `AT89x51xxP` DIP-40 microcontroller and includes on-board power regulation, a crystal oscillator, reset circuitry, and breakout headers — everything needed to power up and program an 8051 without any external dev kit.
 
-**Problem Solved**
-Most 8051 "getting started" boards are either bundled with proprietary programmers or buried inside larger, more expensive kits. This board strips things down to a minimal, breadboard-friendly reference design: drop in the MCU, apply power, and start experimenting with the 8051 instruction set, timers, UART, and I2C.
-
 **Real-World Applications**
 - A low-cost bring-up board for learning 8051 assembly/C and embedded fundamentals
 - A reference design for retro/classic MCU projects and hobbyist electronics
@@ -27,6 +24,22 @@ Most 8051 "getting started" boards are either bundled with proprietary programme
 - Students and hobbyists learning embedded systems on the 8051 architecture
 - Electronics enthusiasts who want a from-scratch, fully open PCB design to fabricate
 - Instructors needing a simple, reproducible 8051 lab board
+
+---
+
+## 📸 Preview
+
+### Schematic
+_(image)_
+
+### PCB — Top
+_(image)_
+
+### PCB — Bottom
+_(image)_
+
+### 3D View
+_(image)_
 
 ---
 
@@ -60,28 +73,22 @@ Most 8051 "getting started" boards are either bundled with proprietary programme
 
 ```
 8051_Standalone_Dev_Board/
-│
-├── README.md                                  # This file
-│
-├── 🧠 KiCad Source
-│   ├── 8051_Standalone_Dev_Board.kicad_pro     # Project file (settings, rules)
-│   ├── 8051_Standalone_Dev_Board.kicad_sch     # Schematic
-│   └── 8051_Standalone_Dev_Board.kicad_pcb     # PCB layout
-│
-└── 📂 Fabrication Output (Gerbers & Drills)
-    ├── 8051_Standalone_Dev_Board-F_Cu.gbr           # Front copper
-    ├── 8051_Standalone_Dev_Board-B_Cu.gbr           # Back copper
-    ├── 8051_Standalone_Dev_Board-F_Mask.gbr         # Front solder mask
-    ├── 8051_Standalone_Dev_Board-B_Mask.gbr         # Back solder mask
-    ├── 8051_Standalone_Dev_Board-F_Paste.gbr        # Front solder paste
-    ├── 8051_Standalone_Dev_Board-B_Paste.gbr        # Back solder paste
-    ├── 8051_Standalone_Dev_Board-F_Silkscreen.gbr   # Front silkscreen
-    ├── 8051_Standalone_Dev_Board-B_Silkscreen.gbr   # Back silkscreen
-    ├── 8051_Standalone_Dev_Board-Edge_Cuts.gbr      # Board outline
-    ├── 8051_Standalone_Dev_Board-PTH.drl            # Plated through-holes
-    ├── 8051_Standalone_Dev_Board-NPTH.drl           # Non-plated through-holes
-    └── 8051_Standalone_Dev_Board-job.gbrjob         # Gerber job file (fab specs)
+├── README.md
+├── Images/
+├── Schematic/
+├── PCB/
+├── Gerber/
+├── BOM/
+└── Datasheets/
 ```
+
+Browse each folder directly on GitHub for the full contents:
+- **Schematic/** — `.kicad_sch` source
+- **PCB/** — `.kicad_pcb` layout + `.kicad_pro` project file
+- **Gerber/** — Gerber (`.gbr`) and drill (`.drl`) fabrication output, plus the `.gbrjob` job file
+- **BOM/** — Bill of materials
+- **Datasheets/** — Component datasheets (MCU, regulator, etc.)
+- **Images/** — Schematic, PCB, and 3D renders used in this README
 
 ---
 
@@ -116,7 +123,7 @@ Most 8051 "getting started" boards are either bundled with proprietary programme
 | J5 | 1×4 pin header | I2C | I2C breakout |
 | J6 | Barrel jack + switch | DC power in | Power input |
 
-*(Full net-level detail lives in the `.kicad_sch` schematic file.)*
+*(Full net-level detail lives in the schematic file under `Schematic/`.)*
 
 ---
 
@@ -125,7 +132,7 @@ Most 8051 "getting started" boards are either bundled with proprietary programme
 **1. Clone the repository**
 ```bash
 git clone https://github.com/anshukumar146/GitHub.git
-cd GitHub/8051_Standalone_Dev_Board
+cd GitHub/PCB_projects/KICAD/8051_Standalone_Dev_Board
 ```
 
 **2. Install KiCad (version 10 or later recommended)**
@@ -150,14 +157,14 @@ kicad 8051_Standalone_Dev_Board.kicad_pro
 ## ▶️ Building & Fabricating the Board
 
 **Option A — Use the pre-generated Gerbers**
-The `*.gbr` and `*.drl` files in this repo are ready to upload directly to any PCB fabricator (JLCPCB, PCBWay, OSH Park, etc.):
+The files in `Gerber/` are ready to upload directly to any PCB fabricator (JLCPCB, PCBWay, OSH Park, etc.):
 1. Zip all `.gbr` and `.drl` files together.
 2. Upload the zip to your fab house's Gerber viewer/order page.
 3. Confirm the board outline, layer count (2), and dimensions (~54.6 mm × 52.3 mm, 1.6 mm thickness) match the preview.
 4. Place the order.
 
 **Option B — Regenerate Gerbers from source**
-1. Open `8051_Standalone_Dev_Board.kicad_pcb` in KiCad's PCB Editor.
+1. Open the `.kicad_pcb` file from `PCB/` in KiCad's PCB Editor.
 2. Run **File → Fabrication Outputs → Gerbers** (and **Drill Files**) to regenerate output.
 3. Review the plot in **File → Fabrication Outputs → Gerber Viewer** before ordering.
 
@@ -181,6 +188,12 @@ The `*.gbr` and `*.drl` files in this repo are ready to upload directly to any P
 - **Thickness:** 1.6 mm
 - **Finish:** None (as generated — set per fab house preference at order time)
 - **Min track/clearance:** 0.2 mm (per design rules in the Gerber job file)
+
+---
+
+## 🧭 Design Motivation
+
+Most 8051 "getting started" boards are either bundled with proprietary programmers or buried inside larger, more expensive kits. This board strips things down to a minimal, breadboard-friendly reference design: drop in the MCU, apply power, and start experimenting with the 8051 instruction set, timers, UART, and I2C — with a fully open schematic and PCB layout anyone can inspect, modify, or fabricate themselves.
 
 ---
 
