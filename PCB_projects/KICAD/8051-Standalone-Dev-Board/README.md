@@ -56,6 +56,7 @@ _(image)_
 
 ---
 
+
 ## 🛠️ Technologies Used
 
 | Category | Details |
