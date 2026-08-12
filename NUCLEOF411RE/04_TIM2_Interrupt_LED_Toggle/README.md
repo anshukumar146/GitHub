@@ -271,13 +271,20 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 ## 🖼️ Screenshots
 
 ## Output Screenshot
-(Add screenshot here)
+<img width="900" height="700" alt="Timer_Scheduler" src="https://github.com/user-attachments/assets/73ee81e1-219f-46cc-8055-5ac65d7384a1" />
+
 
 ---
 
 ## 🎥 Demo Video
 
-(Add video/GIF here)
+
+
+
+https://github.com/user-attachments/assets/7798ac5a-d917-464e-9d99-9275958049b6
+
+
+
 
 ---
 
