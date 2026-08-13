@@ -399,13 +399,20 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 ## 🖼️ Screenshots
 
 ## Output Screenshot
-(Add screenshot here)
+<img width="1260" height="720" alt="05_Cooperative_Task_Scheduler" src="https://github.com/user-attachments/assets/e1d6c7cc-5849-479c-af77-a4d6fe223ec9" />
+
 
 ---
 
 ## 🎥 Demo Video
 
-(Add video/GIF here)
+
+
+
+https://github.com/user-attachments/assets/7d11b150-c176-4250-aa53-e679bb56d681
+
+
+
 
 ---
 
