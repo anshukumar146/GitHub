@@ -4,6 +4,7 @@
 
 A register-level STM32F411RE project that builds a small **cooperative task scheduler** on top of a single TIM2 hardware timer — running three independent periodic tasks (two LEDs and periodic button polling with falling-edge detection) from one 1 ms system tick, entirely without an RTOS. Written in bare-metal C with no HAL, CubeMX-generated code, or middleware.
 
+
 ![STM32](https://img.shields.io/badge/MCU-STM32F411RE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE-blue?style=for-the-badge)
