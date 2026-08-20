@@ -268,7 +268,7 @@ Note: R2 provide external pull-ups for PC0. In the current firmware, the STM32's
 ---
 
 
----
+
 
 ## 🖼️ Hardware connection
 
