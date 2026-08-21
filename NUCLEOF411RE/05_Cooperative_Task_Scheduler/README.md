@@ -397,6 +397,17 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 
 ---
 
+
+## 🖼️ Schematic diagram
+
+<img width="1218" height="618" alt="Screenshot 2026-08-20 223048" src="https://github.com/user-attachments/assets/e0025af9-b398-4109-bee6-45ba5fe1cc40" />
+
+
+Note: R4 provide external pull-ups for PC0. In the current firmware, the STM32's internal pull-ups are also enabled via GPIOC_PUPDR, so these external resistors are optional and can be removed. They are included here to illustrate an alternative hardware pull-up implementation and to ensure the circuit would still operate even if the internal pull-ups were not configured.
+
+---
+
+
 ## 🖼️ Screenshots
 
 ## Output Screenshot

@@ -266,6 +266,13 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 - **No user interaction required** — once flashed, the LED on PC3 toggles automatically every 1 second, driven entirely by the TIM2 hardware interrupt.
 - `main()` performs no application work while waiting for the next interrupt; the CPU continuously executes the empty loop between timer interrupts, rather than busy-waiting in a delay loop.
 
+
+---
+
+## 🖼️ Schematic diagram
+<img width="466" height="477" alt="Screenshot 2026-08-19 214732" src="https://github.com/user-attachments/assets/fd0592a1-7f90-472d-90c0-829f491c98ea" />
+
+
 ---
 
 ## 🖼️ Screenshots
