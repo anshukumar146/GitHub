@@ -152,50 +152,7 @@ For example, a 50% duty cycle means the signal is HIGH for 50% of each period an
 ## ⚙️ How It Works
 
 ```
-                  ┌─────────────────────┐
-                  │       SWITCHES      │
-                  │                     │
-                  │ SW1 → PC3           │
-                  │ SW2 → PC0           │
-                  │ SW3 → PC1           │
-                  │ SW4 → PA1           │
-                  │ SW5 → PA4           │
-                  └──────────┬──────────┘
-                             │
-                             ▼
-                    ┌────────────────┐
-                    │  GPIO IDR      │
-                    │ Input Reading  │
-                    └───────┬────────┘
-                            │
-                            ▼
-                    ┌────────────────┐
-                    │    Debounce    │
-                    │    Function    │
-                    └───────┬────────┘
-                            │
-                            ▼
-                    ┌────────────────┐
-                    │  Switch_Read() │
-                    │ Duty Selection │
-                    └───────┬────────┘
-                            │
-                            ▼
-                       TIM2_CCR1
-                            │
-                            ▼
-                    ┌────────────────┐
-                    │      TIM2      │
-                    │  PWM Channel 1 │
-                    └───────┬────────┘
-                            │
-                            ▼
-                           PA0
-                            │
-                            ▼
-                          ┌───┐
-                          │LED│
-                          └───┘
+SW1–SW5 → GPIO IDR → Debounce → Switch_Read() → TIM2_CCR1 → TIM2 PWM → PA0 → LED
 ```
 
 1. **GPIO Setup (`GPIO_Init`)** — Enables the GPIOA and GPIOC clocks, configures PC0/PC1/PC3 and PA1/PA4 as inputs, and enables internal pull-up resistors on all five switch pins.
@@ -413,13 +370,20 @@ Download and install from [st.com/en/development-tools/stm32cubeide.html](https:
 ## 🖼️ Screenshots
 
 ## Output Screenshot
-(Add screenshot here)
+
+<img width="322" height="400" alt="06_PWM_LED_Brightness_Controller" src="https://github.com/user-attachments/assets/b9a35718-16b2-4c5f-a95e-917bb8f25dd9" />
+
+<img width="300" height="400" alt="IMG_20260815_232617" src="https://github.com/user-attachments/assets/eb3311f4-1a50-4fa2-a205-57420bf8f065" />
 
 ---
 
 ## 🎥 Demo Video
 
-(Add video/GIF here)
+
+
+https://github.com/user-attachments/assets/b411c0d1-98c6-49c2-8126-696d2b3a1574
+
+
 
 ---
 
