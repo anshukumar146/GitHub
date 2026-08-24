@@ -265,8 +265,33 @@ STM32_Servo_Controller/
 
 The completed project generates a stable 50 Hz / 20 ms PWM signal with selectable pulse widths (1.0 ms → ~0°, 1.5 ms → ~90°, 2.0 ms → ~180°), independently verified with a logic analyzer, and successfully drives the servo after resolving a mechanical horn restriction.
 
+
 ---
 
+## 🖼️ Screenshots
+
+## Output Screenshot
+
+
+
+<img width="400" height="400" alt="Screenshot 2026-08-24 225421" src="https://github.com/user-attachments/assets/af6ddda9-1f4f-4b50-b1e7-5a3f1c3bb305" />
+
+
+---
+
+## 🎥 Demo Video
+
+
+
+
+
+https://github.com/user-attachments/assets/4dbc376c-376c-4f6d-aadc-11a68cb84b83
+
+
+
+
+
+---
 ## 📚 What I Learned
 
 **STM32**
