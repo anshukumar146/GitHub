@@ -267,6 +267,34 @@ The completed project generates a stable 50 Hz / 20 ms PWM signal with selectabl
 
 ---
 
+## 🖼️ Screenshots
+
+## Servo PWM Logic Analyzer Comparison
+
+<img width="1897" height="774" alt="STM32_Servo_PWM_Logic_Analyzer_Comparison" src="https://github.com/user-attachments/assets/b4d9cc9f-68e5-4fff-b7d3-4836efed4081" />
+
+
+---
+## Output Screenshot
+
+<img width="700" height="500" alt="Screenshot 2026-08-24 225421" src="https://github.com/user-attachments/assets/a9fa11f8-4c17-4224-be66-345ebc40c1bc" />
+
+
+---
+
+## 🎥 Demo Video
+
+
+
+
+
+https://github.com/user-attachments/assets/1258b21d-3c28-4389-859e-63a55c3ba2bd
+
+
+
+
+
+---
 ## 📚 What I Learned
 
 **STM32**
