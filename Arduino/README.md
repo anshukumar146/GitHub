@@ -1,7 +1,6 @@
 # ARDUINO UNO
 
 This folder contains simple and beginner-friendly Arduino projects .
-
 Each program demonstrates a fundamental concept in C.
 
 ## 📂 Programs
