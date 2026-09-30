@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=F70000&size=35&center=true&vCenter=true&width=1000&lines=Electronics+and+Communication+Engineering;Embedded+Systems+Learner;Embedded+C+%7C+C+Programmer;Anshu+Kumar" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?color=F70000&size=35&center=true&vCenter=true&width=1000&lines=Electronics+and+Communication+Engineering;Embedded+Systems+Learner;Embedded+C+%7C+C+Programmer;Anshu+Kumar" alt="Typing SVG" />
 </p>
 
 
